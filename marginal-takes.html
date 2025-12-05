@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Marginal Takes – Sam Hogg</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --muted: #666666;
+      --accent: #111111;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 16px 48px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.25rem;
+    }
+
+    .tagline {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .nav {
+      margin-top: 16px;
+      display: flex;
+      gap: 18px;
+      font-size: 0.95rem;
+    }
+
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .nav a:hover {
+      border-bottom-color: rgba(0, 0, 0, 0.35);
+    }
+
+    section {
+      margin-top: 24px;
+    }
+
+    h2 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 600;
+      margin: 0 0 8px;
+      color: var(--muted);
+    }
+
+    p {
+      margin: 0 0 12px;
+      font-size: 0.96rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    a:hover {
+      border-bottom-color: rgba(0, 0, 0, 0.35);
+    }
+
+    .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Marginal Takes</h1>
+      <p class="tagline">Short essays, half-formed ideas, and things I’m still thinking through.</p>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/marginal-takes.html">Marginal Takes</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Essays</h2>
+      <p>Click a title to open it in a new tab.</p>
+      <ul>
+        <li>
+          <a href="pmcs-notes.html" target="_blank" rel="noopener noreferrer">
+            Notes on PMCs and the future of outsourced force
+          </a>
+          <div class="meta">Forthcoming</div>
+        </li>
+        <li>
+          <a href="uk-ai-bifurcating-world.html" target="_blank" rel="noopener noreferrer">
+            The UK’s AI position in a bifurcating world
+          </a>
+          <div class="meta">Forthcoming</div>
+        </li>
+        <!-- Add more essays here as you write them -->
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
