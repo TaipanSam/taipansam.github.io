@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notes on Classic Sources - Marginal Takes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --muted: #666666;
+      --accent: #111111;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 16px 48px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.25rem;
+    }
+
+    .meta {
+      margin: 0;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    a:hover {
+      border-bottom-color: rgba(0, 0, 0, 0.35);
+    }
+
+    p {
+      margin: 0 0 14px;
+      font-size: 0.96rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Notes on Classical Sources </h1>
+      <p class="meta">Marginal Takes · draft notes</p>
+      <p class="meta"><a href="/marginal-takes.html">← Back to all essays</a></p>
+    </header>
+
+    <article>
+      <p>[“I have given up newspapers in exchange for Tacitus & Thucydides, for Newton & Euclid; & I find myself much the happier. sometimes indeed I look back to former occurrences, in remembrance of our old friends and fellow laborers, who have fallen before us. of the signers of the Declaration of Independance I see now living not more than half a dozen on your side of the Patomak, and, on this side, myself alone. you & I have been wonderfully spared, and myself with remarkable health, & a considerable activity of body & mind.” Former President Thomas Jefferson’s letter to his predecessor John Adams, 1812 Hello, Spend time reading the biographies of, or speeches by, leading statesmen over the last four centuries and a consistent theme emerges: almost all of them spent large parts of their lives digesting, translating, or discussing classic texts or art. Cicero, Thucydides, Shakespeare, Plato, Plutarch (particularly ‘Lives’, which appears over and over), Tacitus and many others appear on bookshelves or cited in key strategic speeches. It becomes clear that through the passage of time, truly great leaders have sought to contextualise their moment in power through the prism of those who have gone before them, who themselves had often lived through intense moments of political, societal or economic turbulence and upheaval. I suspect the works provided almost something spiritual to underpin a leader’s own time in power: a sense of understanding that the human spirit coalesces around certain concepts or ideas, and can be woven and directed by those who appreciate this reality. Perhaps they sought inspiration, education - even comfort, from these texts. I write this note partly because I recently re-read James Marriott’s excellent, scathing and frankly depressing essay on the dawn of a post-literate society. This spurred me to delve into how (in)frequently classic thinkers are referenced in contemporary British political speeches - more on that at the end of this note. In Britain, Boris Johnson is probably the last Prime Minister who would claim to be a classicist and took pleasure in quoting from the annals. Perhaps a cynic would offer that this was also participating in a form of elite signalling, demonstrating membership in an exclusive educated class, and that we should be careful not to assume that classical references always equaled deep wisdom or better governance. Perhaps. But it made me wonder: how many of Britain’s leading politicians would today turn to the classics to find inspiration, answers or comfort to their many complex problems? Too few I suspect. This is a shame for them, and damaging for us as a democracy. To be uninterested in history as a statesman is, at minimum, to miss an opportunity. It suggests you think you’re the first person to experience the situations you find yourself in, that you alone can produce novel answers, that humans before you haven’t wrestled with similar dilemmas. In democracies, it evidences a lack of curiosity in the systems you operate within, built as they were by statesmen from previous epochs from where these writings emerged. This might be arrogance, or it might simply reflect the realities of modern governance: who has time for Tacitus when there are Select Committee deadlines, for Plutarch when there are briefings to give to client journalists? Still, taking the time to (re)read classic texts allows you to spar with the author’s key ideas: how could I apply this to my moment? Do I agree with this framing? Have the core foundations of democracy changed to such an extent in the last two thousand years that these ideas are no longer relevant? — A conversation with the past Thucydides BBC Radio 4 - In Our Time, Thucydides Thucydides Thucydides speaks to the art of great power competition and the follies of hegemonic greed. Described as “a humourless man, pessimistic, sceptical, highly intelligent, cold and reserved” in one famous introductory note, the former Athenian general’s framing of the conflict between Athens and Sparta, the expansion and collapse of the League, and the speech of Pericles are all keystones in any great leader’s repertoire and are studied by militaries around the world to this day. In my view, the Melian Dialogue and The Mytilenean Debate remain two of the most consequential passages in the text. Winston Churchill cited the Athenian general on numerous occasions, including a deep discussion with then Prime Minister H.H. Asquith, and Henry Kissinger read his works closely. Cicero Cicero on Intelligent Design | Discovery Institute Cicero A study of Cicero allows a politician to observe the consequences of an establishment’s creeping intellectual cowardice in the face of proto-Machiavellian manoeuvring, among other themes of note. The dying Republic’s most famous orator witnessed the decay of his world through weary, depressed eyes. De Officiis, written in his final years, sought to spell out, via the format of letters to his son, Cicero’s views on what makes a moral and integral leader. Frederick II “the Great” of Prussia called it “the best work on morals that has been or can be written,” and it played a formative role in the framework of the American legal system and the in shaping the minds of its architects. Shakespeare Shakespeare Some leaders sought to understand the extremities of their power through literature or poetry that speaks to the human spirit.1 Unsurprisingly, William Shakespeare is a favourite. Abraham Lincoln quoted from Macbeth and wrote to one of his favourite actors, James H. Hackett: Letter from Lincoln to Hackett, 1863. “Some of Shakespeare’s plays I have never read, while others I have gone over perhaps as frequently as any unprofessional reader. Among the latter are Lear, Richard Third, Henry Eighth, Hamlet, and especially Macbeth. I think nothing equals Macbeth—It is wonderful.” The Silence in Hansard Given how many British politicians and civil servants enter Parliament via the Oxford/Cambridge PPE pipeline, it is likely that a number of the governing elite have read these texts at some point during their studies. Of course, engagement with ideas doesn’t always manifest as explicit citation; one can be shaped by Juvenal or Aristophanes without name-dropping them. Still, parliamentary mentions offer at least one measurable indicator of whether these works remain part of political discourse. Prior to examining the data, my guess is that we would have seen upticks around wider geopolitical events: for example, an increase in Thucydides citations during the Cold War, reflecting the tension and struggle between two world powers. Or perhaps during Brexit debates, we may have seen politicians cite some of Cicero’s thinking around how you structure legal systems, and so on. Skimming through Hansard, it is notable how infrequently British politicians directly mention classic thinkers in their speeches over the last century. For example, the chart below shows mentions of ‘Thucydides’ between 1 January 1925 to this week. The peak - 5 mentions - occurred during a debate on 9 July 2003 on the draft EU Constitutional Treaty, and only then because a quote from the Athenian had been included in a previous text. A smattering of other mentions include a 1938 debate on the death penalty, where James Barr MP quoted several classical texts and the aforementioned section from Thucydides on punishment, and more recent nods by Lord Alderdice to the so-called Thucydides Trap vis-à-vis the US and China. Mentions of Thucydides in Parliament. Hansard doesn’t label the number along the vertical axis, so note that the 2003 spike was 5 mentions as a reference point. Cicero likewise finds himself fairly under-quoted in Parliament. The major spike occurred in 2018 mostly due to a debate on a Finance Bill which saw MPs go back and forth about their favourite quote of his. Another spike occurred around 1948 during a debate on British nationality, wherein MPs argued as to whether the phrase “civis Romanus sum” (“I am a Roman citizen”) was penned by Cicero or Saul of Tarsus (St Paul). Mentions of Cicero in Parliament over the last century. The peak in 2018 is 11 mentions, for reference. Closing views Does classical literacy actually produce better governance? This is almost impossible to measure. Churchill read Thucydides and led Britain through its finest hour, but he also engineered the Gallipoli disaster. Boris Johnson quoted Cicero whilst having multiple affairs and behaving in a way the Roman giant would have found appalling. The correlation between classical education and political wisdom is, at best, murky. Too many variables, too much contingency, too much that depends on character, circumstance, and luck. And yet. Even granting all this complexity, one can’t help but feel that something has been lost. Not certainty about better outcomes, but perhaps a certain depth of historical perspective, a lexicon for discussing power and its limits, a shared cultural reference point that once united political elites - a concept Kissinger touched on in a different context in a 1969 essay: “In the great periods of cabinet diplomacy, diplomats spoke the same language, not only in the sense that French was the lingua franca, but more importantly because they tended to understand intangibles in the same manner.” Perhaps the real issue isn’t whether politicians quote classical thinkers, but whether they engage in rigorous historical thinking at all. Do they study how previous societies handled crises? Do they learn from policy failures? Do they think in decades rather than election cycles? The honest answer is: I don’t know for certain. My unprovable gut feeling is that many of the current crop of politicians in Britain’s political system would struggle to hold up against their predecessors a century ago if asked to explain classical texts and key strategic concepts within them. If so, that is a shame: for us, for them, and for our democracy.]</p>
+      <p>Start with a few short paragraphs. You don’t need anything fancy — just text.</p>
+    </article>
+  </main>
+</body>
+</html>
