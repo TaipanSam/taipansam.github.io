@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Taipan Sam</title>
+  <title>Sam Hogg</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
@@ -31,7 +31,7 @@
     }
 
     header {
-      margin-bottom: 32px;
+      margin-bottom: 24px;
     }
 
     h1 {
@@ -43,6 +43,23 @@
       margin: 0;
       font-size: 0.98rem;
       color: var(--muted);
+    }
+
+    .nav {
+      margin-top: 16px;
+      display: flex;
+      gap: 18px;
+      font-size: 0.95rem;
+    }
+
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .nav a:hover {
+      border-bottom-color: rgba(0, 0, 0, 0.35);
     }
 
     section {
@@ -124,8 +141,13 @@
 <body>
   <main>
     <header>
-      <h1> Sam Hogg </h1>
-      <p class="tagline">I work at the intersection of AI, geopolitics, and UK policy. </p>
+      <h1>Sam Hogg</h1>
+      <p class="tagline">I work at the intersection of AI, geopolitics, and UK policy.</p>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/marginal-takes.html">Marginal Takes</a>
+      </nav>
     </header>
 
     <section>
@@ -155,23 +177,4 @@
         Selected pieces will go here when they’re online. For now, a few placeholders:
       </p>
       <ul>
-        <li><em>On the UK’s AI position in a bifurcating world</em> (forthcoming)</li>
-        <li><em>Notes on PMCs </em> (forthcoming)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Elsewhere</h2>
-      <div class="links">
-        <!-- Replace the # links with your real profiles -->
-        <a href="https://x.com/discoplomacy"><span>X</span></a>
-        <a href="https://github.com/TaipanSam"><span>GitHub</span></a>
-      </div>
-    </section>
-
-    <footer>
-      <p>Based somewhere between policy memos, terminals, and train stations.</p>
-    </footer>
-  </main>
-</body>
-</html>
+        <li><em>On the UK’s AI
