@@ -1,44 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Taipan Sam</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --muted: #666666;
+      --accent: #111111;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: system-ui, -apple-system, sans-serif;
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 0 16px;
+      margin: 0;
+      padding: 32px 16px 48px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
     }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
     h1 {
       font-size: 2.4rem;
-      margin-bottom: 0.3rem;
+      margin: 0 0 0.25rem;
     }
+
+    .tagline {
+      margin: 0;
+      font-size: 0.98rem;
+      color: var(--muted);
+    }
+
+    section {
+      margin-top: 32px;
+    }
+
+    h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 600;
+      margin: 0 0 8px;
+      color: var(--muted);
+    }
+
+    p {
+      margin: 0 0 12px;
+      font-size: 0.98rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+      font-size: 0.96rem;
+    }
+
     a {
+      color: var(--accent);
       text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     }
+
     a:hover {
-      text-decoration: underline;
+      border-bottom-color: rgba(0, 0, 0, 0.35);
     }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      margin-top: 8px;
+      font-size: 0.95rem;
+    }
+
     .links a {
-      margin-right: 12px;
+      border-bottom: none;
+    }
+
+    .links a span {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    .links a span:hover {
+      border-bottom-color: rgba(0, 0, 0, 0.35);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding-top: 24px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Taipan Sam</h1>
-  <p><em>Welcome to my website.</em></p>
+  <main>
+    <header>
+      <h1> Sam Hogg </h1>
+      <p class="tagline">I work at the intersection of AI, geopolitics, and UK policy. </p>
+    </header>
 
-  <p>
-    Short intro goes here — who you are, what you do, what you're interested in.
-  </p>
+    <section>
+      <h2>About</h2>
+      <p>
+        I’m interested in how emerging technologies, capital, and state power reshape the geopolitical tectonics —
+        particularly the UK’s place between the US, Europe, and other rising nations.
+      </p>
+      <p>
+        I mostly spend my time reading, writing, and talking to people about technologies,
+        foreign policy, trade, and odd projects I'm working on for fun.
+      </p>
+    </section>
 
-  <div class="links">
-    <a href="mailto:your@email.com">Email</a>
-    <a href="https://x.com/yourhandle">X</a>
-    <a href="https://github.com/yourusername">GitHub</a>
-  </div>
+    <section>
+      <h2>Now</h2>
+      <ul>
+        <li>Thinking about PMCs.</li>
+        <li>Tracking how the UK responds to a more fractured, geoeconomic world.</li>
+        <li>Trying to grow tumeric at home, with a plan to crossbreed with another species.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Writing</h2>
+      <p>
+        Selected pieces will go here when they’re online. For now, a few placeholders:
+      </p>
+      <ul>
+        <li><em>On the UK’s AI position in a bifurcating world</em> (forthcoming)</li>
+        <li><em>Notes on PMCs </em> (forthcoming)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Elsewhere</h2>
+      <div class="links">
+        <!-- Replace the # links with your real profiles -->
+        <a href="https://x.com/discoplomacy"><span>X</span></a>
+        <a href="https://github.com/TaipanSam"><span>GitHub</span></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Based somewhere between policy memos, terminals, and train stations.</p>
+    </footer>
+  </main>
 </body>
 </html>
