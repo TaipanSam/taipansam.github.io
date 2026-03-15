@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Artificial Friction – Sam Hogg</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --muted: #666666;
+      --accent: #111111;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 16px 48px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin: 0 0 0.25rem;
+    }
+
+    .tagline {
+      margin: 0;
+      font-size: 0.98rem;
+      color: var(--muted);
+    }
+
+    .nav {
+      margin-top: 16px;
+      display: flex;
+      gap: 18px;
+      font-size: 0.95rem;
+    }
+
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .nav a:hover {
+      border-bottom-color: rgba(0, 0, 0, 0.35);
+    }
+
+    section {
+      margin-top: 32px;
+    }
+
+    h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 600;
+      margin: 0 0 8px;
+      color: var(--muted);
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 28px 0 8px;
+      color: var(--text);
+    }
+
+    p {
+      margin: 0 0 14px;
+      font-size: 0.98rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    a:hover {
+      border-bottom-color: rgba(0, 0, 0, 0.35);
+    }
+
+    .essay-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 0 0 24px;
+      color: var(--text);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding-top: 24px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .essay-title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Sam Hogg</h1>
+      <p class="tagline">I work at the intersection of AI, geopolitics, and UK policy. Previously founded and ran a company which analysed foreign policy, read over a million times in 140 countries.</p>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/marginal-takes.html">Marginal Takes</a>
+        <a href="/peripheries.html">Peripheries</a>
+        <a href="/artificial-friction.html">Artificial Friction</a>
+      </nav>
+    </header>
+
+    <section>
+      <p class="essay-title">Artificial Friction</p>
+
+      <p>
+        Humans are inherently a pattern-recognising and pattern-seeking species. We seek circles in time. We crave the ability to insert a level of routine into our lives, which in turn brings a sense of comfort and security, a sense of belonging. Our bodies are predisposed to this, built on circadian rhythms. We give ourselves to circularity, and in turn, we allow the circularity of life to soothe us. Circles persist in the mythology, religion and stories we tell ourselves, from seasons coming and going to comets soaring through the deep blue ceiling thousands of miles and years beyond us.
+      </p>
+
+      <p>
+        When we attempt to learn new ideas, motions, languages, concepts, we seek to go through the process over and over again until what was new feels old. We build a circularity into this journey. We intuit that this approach builds a learning we can use for other efforts. When we learn one, we can use the circularity to learn others. But this process, while essential, delivers a sense that is often misconstrued for comfort, but in reality, is a dulling of our ability to learn new things. You can settle into the circle, and it will numb you over time.
+      </p>
+
+      <p>
+        This comfort, this circularity. The constant balance and tension between pattern-seeking, which brings mastery and efficiency, and pattern-breaking, which enables discovery and innovation. How do we seek to break and then rebuild this cycle?
+      </p>
+
+      <p>
+        Building on few original insights and many cumulative mistakes, I want to share what I have termed the 'Artificial Friction' Framework in my own life and efforts.
+      </p>
+
+      <h3>On The Roots</h3>
+
+      <p>
+        At the turn of the 20th century, President Theodore Roosevelt set out his framework for a 'strenuous life' to an audience of wealthy businessmen. The core of his argument was that a life of ease and comfort, what he termed "the doctrine of ignoble ease", found by "shrink[ing] from danger, from hardship, or from bitter toil," was corrosive to both individual character and national greatness. The good life was not a pleasant life but an effortful one. Citizens who shrank from hard work, from risk, from the discomfort of striving, from the essence of what it means to push forward, would ultimately produce a nation unfit to meet its moment.
+      </p>
+
+      <p>
+        The roots of this framework first reveal themselves after gently digging in the earthy soils of antiquity. In Sallust's <em>Bellum Catilinae</em>, Cato the Younger delivers a speech to the Senate that reads as a direct ancestor of Roosevelt's argument two millennia later: a republic grown fat, lazy and arrogant on its conquests, its citizens softened by luxury, with leaders more interested in private pleasure than public duty. The same thread runs through the Stoics &mdash; through Seneca, Epictetus, Marcus Aurelius &mdash; who understood that comfort, if unchecked, becomes its own form of decay.
+      </p>
+
+      <p>
+        Francis Fukuyama warned of something like this operating at a civilisational scale. His <em>End of History</em> thesis, far more subtle than its popular caricature, argued that as liberal democratic capitalism appeared to resolve the great ideological struggles of the twentieth century, the absence of existential contest would produce not contentment but a creeping spiritual torpor, a "last man" problem, in which societies that no longer needed to struggle would lose the capacity to do so.
+      </p>
+
+      <h3>Inserting Artificial Friction</h3>
+
+      <p>
+        If these statesmen argued that a life of hardship, deliberate or not, leads to a better life and therefore a better state, 'Artificial Friction' seeks to hyperpersonalise this framework into a more contemporary context.
+      </p>
+
+      <p>
+        The premise is as follows: now more than ever, comfort is available to us once we begin a circular path of learning or development. The digital economy has industrialised the circle. Algorithms learn your taste and then feed it back to you, narrowing your curiosity over time until your platform of choice is a mirror, not a window, into the breadth of human creativity. Fast food apps have removed the friction of cooking, which was also the friction of improvisation and improvement, of stumbling across a new ingredient, of the minor creative act embedded in feeding yourself. Social media collapsed the friction between thought and publication, which also collapsed the friction between thought, articulation, and refinement. LLMs will allow humans to subcontract much of their critical thinking and curiosity to our entire species' archived history: insights that previously took generations to arrive at can be reached in three dotted seconds. In each case, a genuine inconvenience was removed, and with it, a source of unplanned discovery.
+      </p>
+
+      <p>
+        This is not a Luddite argument. These services solve real problems. But the cumulative effect is an environment in which the path of least resistance has been engineered to a degree that no other existing generation of humans has ever experienced. The circle is no longer something you drift into over years of habit. It is built for you, algorithmically, in hours.
+      </p>
+
+      <p>
+        On a less granular scale, the private and public sector too often mirrors this. Corporate career structures, particularly in large organisations, reward the deepening of a single groove: the same meetings, the same frameworks, the same internal language, the same peer group, the same analysis, the same cycles.
+      </p>
+
+      <h3>The Creative Case For Friction</h3>
+
+      <p>
+        Let us examine what this looks like in practice at the level of a single creative life. It is illustrated well by the Australian electronic musician Flume, aka Harley Streten.
+      </p>
+
+      <p>
+        Streten released his self-titled debut album in 2012 at the age of 21. It went platinum in Australia, redefining electronic music in a new direction around the world, spread by music blogs and YouTube playlists from ear to ear. A global touring machine followed: festival headliners, sold-out arenas, a Grammy for Best Dance/Electronic Album. He had built a circle and it was, by any external measure, an extraordinarily successful one. He was only 21.
+      </p>
+
+      <p>
+        Then the circle began to suffocate him. Ahead of his second album, 'Skin', the pressure to replicate and exceed his debut became paralysing. Streten described the experience as a psychological battle to be creative, noting he had never previously felt pressure around his work, it had always just been a fun thing, and then suddenly it was his job, with people constantly asking where the record was. The framework for creativity had been changed. He moved to Los Angeles, adopted a workhorse mentality, more hours in the studio, more grinding, more disciplined repetition of the process that had produced his first record. It didn't work. The circle had become a trap.
+      </p>
+
+      <p>
+        What eventually broke the pattern was a series of deliberate, artificial disruptions. He fled Los Angeles, despite it being the industry's centre of gravity, the place where the circle was most reinforced, where he could rub shoulders with other creatives, actors, musicians, people who understood him, and flew south to Mexico. He slept on friends' sofas, produced records in the back of cars and vans between gigs. Streten embedded himself in a landscape that bore no resemblance to a recording studio.
+      </p>
+
+      <p>
+        As a result, 'Skin' is an album defined by the change of scenery, the space, and the absence of pressure that came with his relocation.
+      </p>
+
+      <p>
+        This, to me, is what Artificial Friction looks like when it works. It is absolutely not the abandonment of discipline, but the strategic disruption of the patterns that discipline creates. Flume's experience is not unique to music. It is a general principle. The circle must be broken in order to be renewed.
+      </p>
+
+      <h3>A Framework for Friction</h3>
+
+      <p>
+        To try and snap out of these circles, one must introduce Artificial Friction. Sometimes this can be done for us: a collapsed relationship, a death, a traumatic experience. Yet other times we must create points, indicators, anti-patterns, that generate reasons to tug on small threads, to create a roughness that challenges the default in our thinking and our lives.
+      </p>
+
+      <p>
+        To this end, I think Artificial Friction operates across three distinct registers, and the most effective disruptions tend to combine more than one.
+      </p>
+
+      <p>
+        <strong>Environmental friction</strong> is the most immediate. It means changing the physical or social context in which you operate, on the basis that the environment shapes thought more than we typically admit. Flume's relocation is one example. But you could choose any of the hundreds of stories told to us of when creatives do the same thing: move, turn off outside systems, rewire the circle, build art and ideas. The principle is the same. Change the landscape and allow new inputs to break the circle.
+      </p>
+
+      <p>
+        <strong>Cognitive friction</strong> is more deliberate. It means building structures that force you to confront assumptions you would otherwise leave undisturbed. This might be a colleague specifically tasked with challenging your reasoning, or red teaming and stress testing. It might be a reading list composed entirely of perspectives you instinctively resist on different value grounds. Again, the point is not to become a contrarian. It is to stress-test the circle before you settle into it.
+      </p>
+
+      <p>
+        <strong>Temporal friction</strong> is, I suppose, the most overlooked. It means disrupting the pace at which you operate, because pace itself becomes a pattern. If your default is rapid iteration, shipping fast, deciding fast, moving on, the friction is to slow down: to take a week to sit with a decision you would normally make in an afternoon. If your default is caution and deliberation, the friction runs the other way: force a decision in 24 hours and observe what your instincts produce when the comfort of extended analysis is removed. This, to me, represents one of the biggest conflict areas between the public and private sector, academia and technologists.
+      </p>
+
+      <p>
+        These three registers are not exhaustive, but they capture the main axes along which friction can be applied and the principle underlying all of these is the same. Approach a situation, and look to see which small threads can be pulled. Some will not yield, for they are load-bearing, tied into place correctly. Others will begin to form a coil in your hands as you gently tug and pull, in turn undoing the fabric around them. The threads that yield are where growth lives.
+      </p>
+
+      <h3>A Final View</h3>
+
+      <p>
+        This is not contrarianism for its own sake. It is not the rejection of expertise, nor the fetishisation of discomfort or pain, or so-called 'sacrifice' that saturates social media. It is, I think, a recognition that the very mechanisms which make us effective as human beings &mdash; pattern recognition, routine, the refinement of process &mdash; are the same mechanisms that, left unchecked, calcify us.
+      </p>
+
+      <p>
+        The circle is a gift. But it must be earned through the fire of friction, broken periodically, and rebuilt with whatever the breaking revealed. The goal is not to live in permanent disruption, for that is merely chaos and rubs down the soul like water on rock &mdash; but to develop the instinct for knowing when the circle has tightened into a cage, and the courage to break it before it sedates you.
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2026 Sam Hogg
+    </footer>
+  </main>
+</body>
+</html>
