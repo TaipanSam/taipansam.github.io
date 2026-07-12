@@ -1,146 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Marginal Takes – Sam Hogg</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    :root {
-      --bg: #ffffff;
-      --text: #111111;
-      --muted: #666666;
-      --accent: #111111;
-    }
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      padding: 32px 16px 48px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    main {
-      max-width: 720px;
-      margin: 0 auto;
-    }
-    header {
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-size: 2rem;
-      margin: 0 0 0.25rem;
-    }
-    .tagline {
-      margin: 0;
-      font-size: 0.95rem;
-      color: var(--muted);
-    }
-    .nav {
-      margin-top: 16px;
-      display: flex;
-      gap: 18px;
-      font-size: 0.95rem;
-    }
-    .nav a {
-      color: var(--accent);
-      text-decoration: none;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    }
-    .nav a:hover {
-      border-bottom-color: rgba(0, 0, 0, 0.35);
-    }
-    section {
-      margin-top: 24px;
-    }
-    h2 {
-      font-size: 0.95rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      font-weight: 600;
-      margin: 0 0 8px;
-      color: var(--muted);
-    }
-    p {
-      margin: 0 0 12px;
-      font-size: 0.96rem;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    }
-    a:hover {
-      border-bottom-color: rgba(0, 0, 0, 0.35);
-    }
-    .meta {
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marginal Takes – Sam Hogg</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        nav {
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            margin-top: 40px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .instruction {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        li a {
+            color: #333;
+            text-decoration: none;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+        .status {
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-  <main>
-    <header>
-      <h1>Marginal Takes</h1>
-      <p class="tagline">Short essays, half-formed ideas, and things I'm still thinking through.</p>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/marginal-takes.html">Marginal Takes</a>
-      </nav>
-    </header>
-    <section>
-      <h2>Essays</h2>
-      <p>Click a title to open it in a new tab.</p>
-      <ul>
+    <nav>
+        <a href="https://taipansam.com/">Home</a>
+        <a href="https://taipansam.com/marginal-takes.html">Marginal Takes</a>
+    </nav>
+
+    <h1>Marginal Takes</h1>
+    <p class="subtitle">Short essays, half-formed ideas, and things I'm still thinking through.</p>
+
+    <h2>Essays</h2>
+    <p class="instruction">Click a title to open it in a new tab.</p>
+
+    <ul>
         <li>
-          <a href="forward-deployed-vagabond.html" target="_blank" rel="noopener noreferrer">
-            Forward Deployed Vagabond
-          </a>
-          <div class="meta">Published</div>
+            <a href="https://taipansam.com/long-march-2029.html" target="_blank">The Long March to 2029</a><br>
+            <span class="status">Published</span>
         </li>
         <li>
-          <a href="upstream-influence.html" target="_blank" rel="noopener noreferrer">
-            Upstream Influence
-          </a>
-          <div class="meta">Published</div>
+            <a href="https://taipansam.com/forward-deployed-vagabond.html" target="_blank">Forward Deployed Vagabond</a><br>
+            <span class="status">Published</span>
         </li>
         <li>
-          <a href="british-foreign-policy-2025.html" target="_blank" rel="noopener noreferrer">
-            Closing 2025 view on British foreign policy and strategy
-          </a>
-          <div class="meta">Published</div>
+            <a href="https://taipansam.com/upstream-influence.html" target="_blank">Upstream Influence</a><br>
+            <span class="status">Published</span>
         </li>
         <li>
-          <a href="british-pmc.html" target="_blank" rel="noopener noreferrer">
-            On the need for a British Private Military Company
-          </a>
-          <div class="meta">Published</div>
+            <a href="https://taipansam.com/british-foreign-policy-2025.html" target="_blank">Closing 2025 view on British foreign policy and strategy</a><br>
+            <span class="status">Published</span>
         </li>
         <li>
-          <a href="pmcs-notes.html" target="_blank" rel="noopener noreferrer">
-            Notes on PMCs and the future of outsourced force, with one eye on Taiwan
-          </a>
-          <div class="meta">Forthcoming</div>
+            <a href="https://taipansam.com/british-pmc.html" target="_blank">On the need for a British Private Military Company</a><br>
+            <span class="status">Published</span>
         </li>
         <li>
-          <a href="artisan-intelligence.html" target="_blank" rel="noopener noreferrer">
-            The Coming of 'Artisan Intelligence'
-          </a>
-          <div class="meta">Published</div>
+            <a href="https://taipansam.com/pmcs-notes.html" target="_blank">Notes on PMCs and the future of outsourced force, with one eye on Taiwan</a><br>
+            <span class="status">Forthcoming</span>
         </li>
-      </ul>
-    </section>
-  </main>
+        <li>
+            <a href="https://taipansam.com/artisan-intelligence.html" target="_blank">The Coming of 'Artisan Intelligence'</a><br>
+            <span class="status">Published</span>
+        </li>
+    </ul>
+
 </body>
 </html>
