@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>In Circulation – Sam Hogg</title>
+  <meta name="description" content="Where Sam Hogg’s work on AI, geopolitics and UK policy has been cited, discussed and put to use. Selected research citations, media coverage and parliamentary evidence.">
+  <link rel="canonical" href="https://taipansam.com/in-circulation.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="In Circulation – Sam Hogg">
+  <meta property="og:description" content="Where my work has been cited, discussed and put to use.">
+  <meta property="og:url" content="https://taipansam.com/in-circulation.html">
+  <meta name="color-scheme" content="light">
+  <style>
+    :root { --bg:#fff; --text:#111; --muted:#666; --line:#e7e7e7; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:24px; }
+    body { margin:0; padding:32px 20px 48px; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--bg); color:var(--text); line-height:1.65; }
+    .wrap { max-width:720px; margin:0 auto; }
+    .site-header { margin-bottom:54px; }
+    .brand { margin:0 0 15px; font-size:1rem; font-weight:650; letter-spacing:-.015em; }
+    .brand a { border:0; }
+    .nav { display:flex; flex-wrap:wrap; gap:8px 18px; font-size:.95rem; }
+    a { color:inherit; text-decoration:none; border-bottom:1px solid #ddd; text-underline-offset:4px; }
+    a:hover { border-bottom-color:var(--text); }
+    a:focus-visible, summary:focus-visible { outline:2px solid var(--text); outline-offset:5px; border-radius:1px; }
+    .nav a { border-bottom-color:transparent; }
+    .nav a[aria-current="page"] { border-bottom-color:var(--text); }
+    .skip { position:absolute; left:20px; top:-90px; padding:8px 12px; background:#111; color:white; z-index:10; }
+    .skip:focus { top:8px; }
+    h1 { font-size:clamp(2.2rem,6vw,3rem); line-height:1.13; letter-spacing:-.045em; margin:0 0 16px; font-weight:650; }
+    .subtitle { font-size:1.08rem; color:var(--muted); margin:0 0 22px; max-width:580px; }
+    .intro { margin:0; font-size:.98rem; max-width:650px; }
+    .contents { display:flex; flex-wrap:wrap; gap:9px 20px; margin:28px 0 0; padding:0; list-style:none; font-size:.85rem; }
+    .contents a { color:var(--muted); }
+    section { margin-top:58px; }
+    .section-heading { margin:0 0 8px; font-size:.81rem; line-height:1.5; font-weight:650; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+    .section-note { margin:0 0 24px; color:var(--muted); font-size:.91rem; }
+    .selected { list-style:none; padding:0; margin:22px 0 0; counter-reset:selected; }
+    .feature { position:relative; border-top:1px solid var(--line); padding:25px 0 27px 42px; counter-increment:selected; }
+    .feature::before { content:counter(selected,decimal-leading-zero); position:absolute; left:0; top:27px; font-variant-numeric:tabular-nums; font-size:.8rem; color:#888; }
+    .feature-meta, .record-meta { margin:0 0 9px; color:var(--muted); font-size:.8rem; line-height:1.6; }
+    .feature-meta .institution { font-weight:600; color:#444; }
+    .feature h3 { font-size:1.2rem; line-height:1.4; letter-spacing:-.015em; margin:0 0 10px; font-weight:600; }
+    .feature p:not(.feature-meta):not(.pinpoint):not(.source) { font-size:.95rem; margin:0 0 10px; }
+    .pinpoint { color:var(--muted); font-size:.79rem; margin:0 0 12px; line-height:1.7; }
+    .source { margin:0; font-size:.86rem; }
+    .records { list-style:none; padding:0; margin:0; }
+    .record { border-top:1px solid var(--line); padding:20px 0 22px; }
+    .record-meta { margin:0 0 7px; }
+    .record-type { display:block; font-size:.73rem; letter-spacing:.04em; }
+    .record h3 { font-size:1rem; line-height:1.5; margin:0 0 7px; font-weight:600; }
+    .record h3 a { border-bottom-color:transparent; }
+    .record h3 a:hover { border-bottom-color:var(--text); }
+    .record p:not(.record-meta):not(.pinpoint) { font-size:.91rem; margin:0; }
+    .record .pinpoint { margin:8px 0 0; }
+    .evidence-list { list-style:none; padding:0; margin:0; }
+    .evidence-list li { display:grid; grid-template-columns:90px 1fr; gap:14px; border-top:1px solid var(--line); padding:17px 0; }
+    .evidence-code { color:var(--muted); font-size:.77rem; padding-top:3px; font-variant-numeric:tabular-nums; letter-spacing:.025em; }
+    .evidence-list h3 { font-size:.95rem; font-weight:550; margin:0 0 4px; line-height:1.5; }
+    .evidence-list p { font-size:.8rem; color:var(--muted); margin:0; }
+    footer { margin-top:48px; border-top:1px solid var(--line); padding-top:20px; color:var(--muted); font-size:.78rem; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    @media(max-width:600px) { body { padding:24px 18px 36px; } .site-header { margin-bottom:42px; } .nav { gap:8px 15px; font-size:.87rem; } section { margin-top:46px; } .feature { padding-left:32px; } .feature h3 { font-size:1.1rem; } .evidence-list li { grid-template-columns:75px 1fr; gap:10px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+    @media print { .nav,.contents,.skip { display:none; } body { padding:0; font-size:10pt; } .site-header { margin-bottom:24px; } .feature,.record,.evidence-list li { break-inside:avoid; } a { border:0; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="site-header">
+      <p class="brand"><a href="/">Sam Hogg</a></p>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/marginal-takes.html">Marginal Takes</a>
+        <a href="/peripheries.html">Peripheries</a>
+        <a href="/artificial-friction.html">Artificial Friction</a>
+        <a href="/in-circulation.html" aria-current="page">In Circulation</a>
+      </nav>
+    </header>
+    <main id="main">
+      <h1>In Circulation</h1>
+      <p class="subtitle">Where my work has been cited, discussed and put to use.</p>
+      <p class="intro">Selected uses of my research and writing on AI, geopolitics and UK policy, alongside contributions to research and parliamentary inquiries.</p>
+      <ul class="contents" aria-label="On this page">
+        <li><a href="#selected">Selected uses</a></li>
+        <li><a href="#research">Research &amp; contributions</a></li>
+        <li><a href="#media">Media &amp; public debate</a></li>
+        <li><a href="#writing">Published writing</a></li>
+        <li><a href="#parliament">Parliamentary evidence</a></li>
+      </ul>
+
+      <section id="selected" aria-labelledby="selected-heading">
+        <h2 class="section-heading" id="selected-heading">Selected uses</h2>
+        <ol class="selected">
+          <li class="feature">
+            <p class="feature-meta"><span class="institution">House of Commons Liaison Committee</span><br>29 May 2024 <span aria-hidden="true">·</span> Report citation</p>
+            <h3>Strategic thinking in government</h3>
+            <p>The Committee cited my evidence on strategic training for MPs and parliamentary wargaming in its report on improving strategic thinking in Whitehall.</p>
+            <p class="pinpoint">Paragraphs 52 and 125 · Footnotes 62 and 182</p>
+            <p class="source"><a href="https://committees.parliament.uk/publications/45149/documents/223586/default/" target="_blank" rel="noopener noreferrer">Read the report <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+          </li>
+          <li class="feature">
+            <p class="feature-meta"><span class="institution">House of Commons Foreign Affairs Committee</span><br>18 December 2022 <span aria-hidden="true">·</span> Report citation</p>
+            <h3>Building Britain’s China expertise</h3>
+            <p>The Committee drew on our evidence about Mandarin capabilities in its argument for greater China expertise and reversing the withdrawal of funding from the Great Britain–China Centre.</p>
+            <p class="pinpoint">Paragraph 21 · Footnote 41 · Joint work with Kayla Blomquist and Scott Singer</p>
+            <p class="source"><a href="https://publications.parliament.uk/pa/cm5803/cmselect/cmfaff/882/report.html" target="_blank" rel="noopener noreferrer">Read the report <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+          </li>
+          <li class="feature">
+            <p class="feature-meta"><span class="institution">Institut Montaigne</span><br>January 2025 <span aria-hidden="true">·</span> Research citation</p>
+            <h3>Understanding China’s policy reversals</h3>
+            <p>China 2035: The Chances of Success attributes its discussion of a “pullback pattern” or “rear-view mirror approach” in Chinese policymaking to an interview with me.</p>
+            <p class="pinpoint">Pages 26–27 · Footnote 35</p>
+            <p class="source"><a href="https://pp.institutmontaigne.web.oxv.fr/ressources/pdfs/publications/explainer-scenarios-china-2035-chances-success.pdf" target="_blank" rel="noopener noreferrer">Read the research <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+          </li>
+          <li class="feature">
+            <p class="feature-meta"><span class="institution">Henry Jackson Society</span><br>September 2025 <span aria-hidden="true">·</span> Policy citation</p>
+            <h3>China strategy and Indo-Pacific resilience</h3>
+            <p>A report on deterrence and supply-chain resilience cited my essay Towards a coherent China approach and our subsequent parliamentary evidence on the Government’s China Audit.</p>
+            <p class="pinpoint">Footnotes 47 and 51 · The China Audit evidence was co-authored with Kayla Blomquist</p>
+            <p class="source"><a href="https://henryjacksonsociety.org/wp-content/uploads/2025/09/HJS-A-UK-Strategy-for-Deterrence-and-Supply-Chain-Resilience-in-the-Indo-Pacific-Report-web.pdf" target="_blank" rel="noopener noreferrer">Read the report <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+          </li>
+          <li class="feature">
+            <p class="feature-meta"><span class="institution">Coalition for Global Prosperity</span><br>2 May 2025 <span aria-hidden="true">·</span> Parliamentary citation</p>
+            <h3>Ideas carried into another parliamentary submission</h3>
+            <p>The Coalition’s evidence to the China Audit inquiry cited Towards a coherent China approach as a source of proposals for strengthening China expertise across government.</p>
+            <p class="pinpoint">CAU0016 · Paragraph 7.2 · Footnote 14</p>
+            <p class="source"><a href="https://committees.parliament.uk/writtenevidence/141370/html/" target="_blank" rel="noopener noreferrer">Read the evidence <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+          </li>
+          <li class="feature">
+            <p class="feature-meta"><span class="institution">The Times · Matthew Parris</span><br>5 March 2024 <span aria-hidden="true">·</span> Idea discussed</p>
+            <h3>A “Year of Democracy” tour</h3>
+            <p>Matthew Parris picked up my proposal for a British foreign secretary to visit countries holding elections, congratulate them and strengthen democratic ties.</p>
+            <p class="pinpoint">Economic light lies at the bottom of a pothole</p>
+            <p class="source"><a href="https://www.thetimes.co.uk/article/economic-light-lies-at-the-bottom-of-a-pothole-67tgfdv8p" target="_blank" rel="noopener noreferrer">Read the column <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="research" aria-labelledby="research-heading">
+        <h2 class="section-heading" id="research-heading">Research &amp; contributions</h2>
+        <p class="section-note">Further citations, responses and credited contributions.</p>
+        <ul class="records">
+<li class="record">
+          <p class="record-meta">International Affairs <span aria-hidden="true">·</span> May 2026 <span class="record-type">Research contribution</span></p>
+          <h3><a href="https://academic.oup.com/ia/article/102/3/949/8614638" target="_blank" rel="noopener noreferrer">Racing for recognition? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Kayla Blomquist’s article on status hierarchies and prestige competition in AI acknowledges my comments on drafts.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Tony Blair Institute for Global Change <span aria-hidden="true">·</span> 22 April 2026 <span class="record-type">Acknowledgement</span></p>
+          <h3><a href="https://institute.global/insights/tech-and-digitalisation/technological-chokepoints-how-to-balance-resilience-and-leverage" target="_blank" rel="noopener noreferrer">Technological chokepoints <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Acknowledged for input and feedback on Technological Chokepoints: How to Balance Resilience and Leverage in a Weaponised Economy.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Carnegie Endowment for International Peace <span aria-hidden="true">·</span> 13 January 2026 <span class="record-type">Published testimony</span></p>
+          <h3><a href="https://carnegieendowment.org/posts/2026/01/soft-power-a-strategy-for-uk-success" target="_blank" rel="noopener noreferrer">AI and Britain’s soft power <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Carnegie published our parliamentary testimony, Soft Power: A Strategy for UK Success?, co-authored with Kayla Blomquist and Scott Singer.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">House of Commons Business and Trade Committee <span aria-hidden="true">·</span> 24 November 2025 <span class="record-type">Report citations</span></p>
+          <h3><a href="https://publications.parliament.uk/pa/cm5901/cmselect/cmbeis/835/report.html" target="_blank" rel="noopener noreferrer">Toward a new doctrine for economic security <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>The report draws on our co-authored OCPL submission on weaponised interdependence, AI infrastructure dependency and assessing strategic vulnerabilities. Table 3; paragraphs 117–118; footnotes 159, 161 and 163. With Kayla Blomquist, Yi-Ting Chang and Jeffrey Love.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Kalavinka Advisors · Andrew Cainey <span aria-hidden="true">·</span> February 2025 <span class="record-type">Public recognition</span></p>
+          <h3><a href="https://kalavinkaadvisors.com/publication/kalavinka-viewpoints-43/" target="_blank" rel="noopener noreferrer">UK and China relations in an unpredictable world <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>In an interview on the UK’s China capabilities, Andrew Cainey highlighted my work on Beijing to Britain and at Oxford China Policy Lab.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Coalition for Global Prosperity <span aria-hidden="true">·</span> 2024 <span class="record-type">Policy citations</span></p>
+          <h3><a href="https://www.coalitionforglobalprosperity.com/s/The-Rising-price-of-Freedom-FINAL-DIGITAL-V2.pdf" target="_blank" rel="noopener noreferrer">The Rising Price of Freedom <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>The report cites our China-capabilities work and my POLITICO article with Brandon Barford on Britain’s position between the US and China.</p>
+          <p class="pinpoint">Footnotes 77 and 165 · China-capabilities work with Kayla Blomquist and Scott Singer</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Tony Blair Institute for Global Change <span aria-hidden="true">·</span> 15 November 2024 <span class="record-type">Policy citation</span></p>
+          <h3><a href="https://institute.global/insights/geopolitics-and-security/reimagining-the-uks-china-capabilities-a-joined-up-approach-to-an-epoch-defining-challenge" target="_blank" rel="noopener noreferrer">Reimagining the UK’s China capabilities <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>The paper names me in its discussion of Britain’s capacity to establish new institutional structures.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Tim Summers <span aria-hidden="true">·</span> 25 May 2024 <span class="record-type">Response essay</span></p>
+          <h3><a href="https://timsummers.substack.com/p/britains-approach-to-beijing" target="_blank" rel="noopener noreferrer">Britain’s approach to Beijing <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>A detailed response to my China-strategy proposals, discussing the expert index, language taskforce and institutional reforms, with both support and criticism.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">European Think-tank Network on China <span aria-hidden="true">·</span> 2023 <span class="record-type">Research citations</span></p>
+          <h3><a href="https://merics.org/sites/default/files/2023-08/ETNC_Report_2023_final.pdf" target="_blank" rel="noopener noreferrer">Europe’s approaches to China <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Tim Summers’s UK chapter cites my 2022 annual review on intelligence chiefs’ interventions and the growing expertise of parliamentary staff.</p>
+          <p class="pinpoint">Footnotes 461 and 465 · Report hosted by MERICS</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Jamestown Foundation <span aria-hidden="true">·</span> 17 February 2023 <span class="record-type">Research citation</span></p>
+          <h3><a href="https://jamestown.org/the-lion-the-wolf-warrior-and-the-crossroads-uk-china-relations-at-a-turning-point/" target="_blank" rel="noopener noreferrer">UK–China relations at a turning point <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>The analysis quotes my January 2021 briefing in its discussion of changing assumptions about China’s economic development and democratisation.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">British Chamber of Commerce in China <span aria-hidden="true">·</span> 30 August 2022 <span class="record-type">Business analysis</span></p>
+          <h3><a href="https://britishchamber.cn/uk-china-post-brexit-trade-relations/" target="_blank" rel="noopener noreferrer">UK–China post-Brexit trade relations <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>The Chamber’s analysis cites my briefing on the Conservative leadership candidates’ positions on China.</p>
+        </li>
+        </ul>
+      </section>
+
+      <section id="media" aria-labelledby="media-heading">
+        <h2 class="section-heading" id="media-heading">Media &amp; public debate</h2>
+        <p class="section-note">Briefings drawn on, analysis quoted and conversations on air.</p>
+        <ul class="records">
+<li class="record">
+          <p class="record-meta">ETN <span aria-hidden="true">·</span> 2026 <span class="record-type">Broadcast appearances</span></p>
+          <h3><a href="https://www.etnshow.co/guests/sam-hogg" target="_blank" rel="noopener noreferrer">AI, China and Britain’s place in the world <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Conversations on AI security, export controls, US–China technology competition and pacing the frontier. OCPL’s April, August and September 2026 newsletters record these appearances.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Anglofuturism <span aria-hidden="true">·</span> 22 September 2026 <span class="record-type">Interview</span></p>
+          <h3><a href="https://newsletter.anglofuturism.co/p/ai-doom-and-britains-factory-boom" target="_blank" rel="noopener noreferrer">AI doom and Britain’s factory boom <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>A discussion of frontier pacing, biosecurity and how Britain’s AI Security Institute can turn expertise into influence.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Nikkei Asia <span aria-hidden="true">·</span> June 2026 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://ocpl.substack.com/p/fostering-presence-ocpl-fellowship" target="_blank" rel="noopener noreferrer">UK engagement with China and India <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Commentary on Yvette Cooper’s visits and AI as a diplomatic priority. OCPL’s newsletter records the appearance and links to the Nikkei article.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Spectator <span aria-hidden="true">·</span> 27 January 2026 <span class="record-type">Podcast interview</span></p>
+          <h3><a href="https://spectator.com/podcast/what-does-starmer-want-to-achieve-in-china/" target="_blank" rel="noopener noreferrer">What does Starmer want to achieve in China? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>With James Heale and Patrick Gibbons, assessing the aims, risks and opportunities of the Prime Minister’s visit.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">LBC <span aria-hidden="true">·</span> January 2026 <span class="record-type">Broadcast interview</span></p>
+          <h3><a href="https://www.linkedin.com/posts/oxford-china-policy-lab_ocpls-sam-hogg-joined-lbc-to-discuss-prime-activity-7423010759397261313-ajiO" target="_blank" rel="noopener noreferrer">Starmer’s visit to China <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Live discussion of the visit and the wider geopolitical response. Linked to OCPL’s published interview clip.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Economist <span aria-hidden="true">·</span> October 2025 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://ocpl.substack.com/p/the-us-uk-tech-deal-and-more" target="_blank" rel="noopener noreferrer">UK–China relations and AI cooperation <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Quoted alongside Kayla Blomquist on the value of AI safety and security collaboration in bilateral relations. Linked to OCPL’s account of the coverage.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Financial Times <span aria-hidden="true">·</span> January 2025 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.ft.com/content/ef1baafc-6374-476f-b9e9-caa7ec037534" target="_blank" rel="noopener noreferrer">Reeves insists she will act to meet “non-negotiable” fiscal rules <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Commentary on the UK’s China Audit in coverage of Rachel Reeves’s trip to China.</p><p class="pinpoint"><a href="https://ocpl.substack.com/p/new-fellows-new-ai-models-and-more" target="_blank" rel="noopener noreferrer">Appearance confirmed by OCPL’s January newsletter</a></p>
+        </li>
+<li class="record">
+          <p class="record-meta">South China Morning Post <span aria-hidden="true">·</span> 10 August 2024 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.scmp.com/news/china/diplomacy/article/3273957/china-watching-britain-signs-thaw-new-labour-government-weighs-its-options" target="_blank" rel="noopener noreferrer">China watching Britain for signs of a thaw <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Quoted on the lack of clarity in Britain’s China policy as the new Labour government considered its approach.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Wire China <span aria-hidden="true">·</span> 23 June 2024 <span class="record-type">Interview</span></p>
+          <h3><a href="https://www.thewirechina.com/2024/06/23/sam-hogg-on-what-to-expect-from-britain-on-china/" target="_blank" rel="noopener noreferrer">What to expect from Britain on China <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>An extended interview on the UK’s China strategy and the implications of a change of government.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Spectator <span aria-hidden="true">·</span> 10 June 2024 <span class="record-type">Podcast interview</span></p>
+          <h3><a href="https://spectator.com/podcast/how-would-britains-labour-party-change-uk-china-relations/" target="_blank" rel="noopener noreferrer">How would Britain’s Labour party change UK–China relations? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>A Chinese Whispers conversation with Cindy Yu ahead of the general election.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Economist <span aria-hidden="true">·</span> 16 May 2024 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.economist.com/britain/2024/05/16/spies-trade-and-tech-chinas-relationship-with-britain" target="_blank" rel="noopener noreferrer">Spies, trade and tech: China’s relationship with Britain <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Quoted on incentives and career paths for China specialists in government.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Guardian <span aria-hidden="true">·</span> 26 February 2024 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.theguardian.com/politics/2024/feb/26/david-cameron-impresses-after-100-days-as-foreign-secretary" target="_blank" rel="noopener noreferrer">Cameron’s first 100 days <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Quoted on Cameron’s balancing act over China.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">TaiwanPlus <span aria-hidden="true">·</span> 12 December 2023 <span class="record-type">Video interview</span></p>
+          <h3><a href="https://www.taiwanplus.com/news/news-shows/zoom-in-zoom-out/231212001/will-the-golden-era-of-uk-china-ties-return" target="_blank" rel="noopener noreferrer">Will the “Golden Era” of UK–China ties return? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>A Zoom In Zoom Out interview with Laurel Stewart on David Cameron’s return and relations with China and Taiwan.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Radio Free Asia <span aria-hidden="true">·</span> 14 November 2023 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.rfa.org/english/news/china/cameron-china-11142023020850.html" target="_blank" rel="noopener noreferrer">Cameron’s return to the Foreign Office <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Analysis of what the appointment meant for Britain’s relationship with China.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Spectator <span aria-hidden="true">·</span> 2 October 2023 <span class="record-type">Live podcast panel</span></p>
+          <h3><a href="https://spectator.com/podcast/does-china-care-what-britain-thinks/" target="_blank" rel="noopener noreferrer">Does China care what Britain thinks? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>A Chinese Whispers panel at Conservative Party conference with Foreign Secretary James Cleverly and Sophia Gaston.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Times <span aria-hidden="true">·</span> 11 September 2023 <span class="record-type">Media mention</span></p>
+          <h3><a href="https://www.thetimes.com/world/asia/article/chris-cash-china-spy-suspect-arrest-name-kgmgrzvl8" target="_blank" rel="noopener noreferrer">Reporting on the Chris Cash investigation <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Named as founder of Beijing to Britain in reporting on the parliamentary aide investigation.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">City A.M. <span aria-hidden="true">·</span> 28 August 2023 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.cityam.com/sunaks-china-strategy-gets-first-real-test-as-cleverly-prepares-for-beijing-trip/" target="_blank" rel="noopener noreferrer">Putting Sunak’s China strategy to the test <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>My assessment of James Cleverly’s Beijing visit as the first real test of Sunak’s China strategy featured in the reporting and headline framing.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The China Project <span aria-hidden="true">·</span> 25 August 2023 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://thechinaproject.com/2023/08/25/u-k-s-sunak-faces-tricky-balancing-act-on-china/" target="_blank" rel="noopener noreferrer">Britain’s practical choices over Taiwan <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Quoted on the policy tools, sanctions and allied responses shaping Westminster’s debate about a potential Taiwan conflict.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">South China Morning Post <span aria-hidden="true">·</span> 25 August 2023 <span class="record-type">Media coverage</span></p>
+          <h3><a href="https://www.scmp.com/news/china/diplomacy/article/3232359/james-cleverly-become-first-british-foreign-secretary-visit-china-5-years-london-looks-rebalance" target="_blank" rel="noopener noreferrer">Cleverly’s first visit to China as foreign secretary <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Coverage of the government’s attempt to rebalance relations with Beijing.</p><p class="pinpoint"><a href="https://www.beijingtobritain.com/media-and-parliamentary-evidence" target="_blank" rel="noopener noreferrer">Listed in Beijing to Britain’s media archive</a></p>
+        </li>
+<li class="record">
+          <p class="record-meta">Financial Times <span aria-hidden="true">·</span> February 2023 <span class="record-type">Media coverage</span></p>
+          <h3><a href="https://www.ft.com/content/a79d2e2f-102d-43b2-aa9a-851ad50679d6" target="_blank" rel="noopener noreferrer">Xinjiang governor cancels Brussels and London visits after outcry <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Reporting on the cancelled European visits, included in Beijing to Britain’s media record.</p><p class="pinpoint"><a href="https://www.beijingtobritain.com/media-and-parliamentary-evidence" target="_blank" rel="noopener noreferrer">Listed in Beijing to Britain’s media archive</a></p>
+        </li>
+<li class="record">
+          <p class="record-meta">Young China Watchers <span aria-hidden="true">·</span> 26 October 2022 <span class="record-type">Interview</span></p>
+          <h3><a href="https://www.youngchinawatchers.com/project/voices-on-china-sam-hogg-founder-and-editor-of-beijing-to-britain/" target="_blank" rel="noopener noreferrer">Voices on China <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>An interview on building Beijing to Britain, working in Parliament and the direction of UK–China relations.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The House / PoliticsHome <span aria-hidden="true">·</span> 4 October 2022 <span class="record-type">Policy advocacy</span></p>
+          <h3><a href="https://www.politicshome.com/members/article/the-procurement-bill-is-a-chance-for-the-uk-to-put-its-money-where-its-mouth-is-on-human-rights" target="_blank" rel="noopener noreferrer">Public procurement and human rights <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Hong Kong Watch’s Benedict Rogers cited my analysis of BGI’s British institutional links in an article advocating changes to public procurement.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Spectator <span aria-hidden="true">·</span> 5 September 2022 <span class="record-type">Podcast interview</span></p>
+          <h3><a href="https://spectator.com/podcast/will-truss-declare-a-genocide-in-xinjiang/" target="_blank" rel="noopener noreferrer">Will Truss declare a genocide in Xinjiang? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>A Chinese Whispers interview with Cindy Yu on Liz Truss’s China policy and the constraints of government.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Bloomberg / Taipei Times <span aria-hidden="true">·</span> August 2022 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.taipeitimes.com/News/editorials/archives/2022/08/10/2003783270" target="_blank" rel="noopener noreferrer">China and the Conservative leadership contest <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Quoted on the implications of the Truss–Sunak contest for UK–China relations. Linked here to the Taipei Times syndication.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Guardian <span aria-hidden="true">·</span> July 2022 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.theguardian.com/politics/2022/jul/25/sunak-ruse-aims-to-outmanoeuvre-truss-over-china" target="_blank" rel="noopener noreferrer">Sunak’s China proposals <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Beijing to Britain’s assessment quoted during the Conservative leadership contest.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">U.S.–China Perception Monitor <span aria-hidden="true">·</span> July 2022 <span class="record-type">Interview</span></p>
+          <h3><a href="https://uscnpm.org/interviews/sam-hogg-on-china-and-the-2022-tory-election/" target="_blank" rel="noopener noreferrer">China, the Tory election and Britain’s transatlantic ties <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>An extended interview on the Conservative leadership contest, Taiwan and Britain’s relationship with Washington.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Pekingnology <span aria-hidden="true">·</span> 2022 <span class="record-type">Quoted analysis</span></p>
+          <h3><a href="https://www.pekingnology.com/p/chinese-backed-dutch-takeover-of" target="_blank" rel="noopener noreferrer">Chinese-backed Dutch takeover of UK wafer fab: Timing is everything <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>Comments on the Newport Wafer Fab review and the tension between parliamentary pressure and a fact-based investment-security decision.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Spectator <span aria-hidden="true">·</span> 28 June 2021 <span class="record-type">Briefing cited</span></p>
+          <h3><a href="https://www.spectator.com.au/2021/06/tories-publicly-clash-over-chinese-takeaway/" target="_blank" rel="noopener noreferrer">The Newport Wafer Fab dispute <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>The article credited Beijing to Britain’s interpretation of the parliamentary dispute over the proposed semiconductor takeover.</p>
+        </li>
+        </ul>
+      </section>
+
+      <section id="writing" aria-labelledby="writing-heading">
+        <h2 class="section-heading" id="writing-heading">Published writing</h2>
+        <p class="section-note">Articles and letters I have written or co-written for other publications.</p>
+        <ul class="records">
+<li class="record">
+          <p class="record-meta">Arguably <span aria-hidden="true">·</span> 14 October 2026 <span class="record-type">Authored essay</span></p>
+          <h3><a href="https://www.arguably.uk/p/can-the-uk-remain-an-ai-power-broker" target="_blank" rel="noopener noreferrer">Can the UK remain an AI power broker? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>On how the US–China relationship creates an opportunity for Britain in AI diplomacy.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Economist <span aria-hidden="true">·</span> 25 September 2025 <span class="record-type">Co-authored letter</span></p>
+          <h3><a href="https://www.economist.com/letters/2025/09/25/how-can-britain-compete-in-artificial-intelligence" target="_blank" rel="noopener noreferrer">How can Britain compete in artificial intelligence? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>With Kayla Blomquist, arguing for Britain to export AI auditing and evaluation expertise and strengthen its role between AI superpowers.</p><p class="pinpoint"><a href="https://ocpl.substack.com/p/how-the-uk-can-compete-in-ai-changing" target="_blank" rel="noopener noreferrer">Letter confirmed in OCPL’s newsletter</a></p>
+        </li>
+<li class="record">
+          <p class="record-meta">POLITICO <span aria-hidden="true">·</span> July 2024 <span class="record-type">Co-authored article</span></p>
+          <h3><a href="https://www.politico.eu/article/keir-starmer-labour-party-united-states-china-donald-trump-trade-economy/" target="_blank" rel="noopener noreferrer">Starmer will have to walk a US–China tightrope <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>With Brandon Barford, examining Britain’s options between Washington and Beijing.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">9DASHLINE <span aria-hidden="true">·</span> 2 July 2024 <span class="record-type">Authored article</span></p>
+          <h3><a href="https://www.9dashline.com/article/a-new-era-dawns-labours-indo-pacific-offer" target="_blank" rel="noopener noreferrer">A new era dawns: Labour’s Indo-Pacific offer <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>On what a Labour government could offer the Indo-Pacific and learn from regional partners.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">Foreign Policy <span aria-hidden="true">·</span> 23 September 2022 <span class="record-type">Co-authored article</span></p>
+          <h3><a href="https://foreignpolicy.com/2022/09/23/liz-truss-britain-china-relationship-golden-era-geoeconomic-threat/" target="_blank" rel="noopener noreferrer">Britain’s Golden Era With China Is Well and Truly Dead <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>With Scott Singer, assessing the direction of relations under Liz Truss.</p>
+        </li>
+<li class="record">
+          <p class="record-meta">The Wire China <span aria-hidden="true">·</span> 14 August 2022 <span class="record-type">Authored article</span></p>
+          <h3><a href="https://www.thewirechina.com/2022/08/14/a-second-era-for-uk-china-relations/" target="_blank" rel="noopener noreferrer">A Second Era for UK–China Relations <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3>
+          <p>An opinion piece on the next phase of Britain’s relationship with China.</p>
+        </li>
+        </ul>
+      </section>
+
+      <section id="parliament" aria-labelledby="parliament-heading">
+        <h2 class="section-heading" id="parliament-heading">Parliamentary evidence</h2>
+        <p class="section-note">Written submissions I have authored or co-authored, published by parliamentary committees.</p>
+        <ul class="evidence-list">
+          <li><span class="evidence-code">CHI0016</span><div><h3><a href="https://committees.parliament.uk/writtenevidence/164861/html/" target="_blank" rel="noopener noreferrer">China and the UK economy <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3><p>Oxford China Policy Lab submission.</p></div></li>
+          <li><span class="evidence-code">CAU0043</span><div><h3><a href="https://committees.parliament.uk/writtenevidence/141438/html/" target="_blank" rel="noopener noreferrer">The UK Government’s China Audit <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3><p>Co-authored with Kayla Blomquist.</p></div></li>
+          <li><span class="evidence-code">SDY0019</span><div><h3><a href="https://committees.parliament.uk/writtenevidence/141579/html/" target="_blank" rel="noopener noreferrer">Science diplomacy <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3><p>Co-authored with Kayla Blomquist.</p></div></li>
+          <li><span class="evidence-code">ECO0016</span><div><h3><a href="https://committees.parliament.uk/writtenevidence/139781/html/" target="_blank" rel="noopener noreferrer">UK economic security <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3><p>Co-authored with Kayla Blomquist, Yi-Ting Chang and Jeffrey Love.</p></div></li>
+          <li><span class="evidence-code">SFT0043</span><div><h3><a href="https://committees.parliament.uk/writtenevidence/138455/pdf/" target="_blank" rel="noopener noreferrer">Soft Power: A Strategy for UK Success? <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3><p>Co-authored with Kayla Blomquist and Scott Singer.</p></div></li>
+          <li><span class="evidence-code">DED0006</span><div><h3><a href="https://committees.parliament.uk/writtenevidence/128544/html/" target="_blank" rel="noopener noreferrer">Defending Democracy <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3><p>Submitted through Torcor.</p></div></li>
+          <li><span class="evidence-code">SSTG0025</span><div><h3><a href="https://committees.parliament.uk/writtenevidence/126451/html/" target="_blank" rel="noopener noreferrer">Scrutiny of Strategic Thinking in Government <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3><p>Submitted through Beijing to Britain.</p></div></li>
+          <li><span class="evidence-code">IRR0006</span><div><h3><a href="https://committees.parliament.uk/writtenevidence/113834/html/" target="_blank" rel="noopener noreferrer">Update to the Integrated Review <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></h3><p>Joint Beijing to Britain / OCPL submission with Kayla Blomquist and Scott Singer.</p></div></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <span>Sam Hogg</span>
+      <span>Updated <time datetime="2026-10-22">22 October 2026</time></span>
+      <a href="#main">Back to top ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
+
