@@ -1,127 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Marginal Takes – Sam Hogg</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-            line-height: 1.6;
-        }
-        nav {
-            margin-bottom: 30px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px 18px;
-        }
-        nav a {
-            color: #333;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        h1 {
-            margin-top: 40px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 10px;
-        }
-        .instruction {
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 15px;
-        }
-        li a {
-            color: #333;
-            text-decoration: none;
-        }
-        li a:hover {
-            text-decoration: underline;
-        }
-        .status {
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Short essays, half-formed ideas, and things Sam Hogg is still thinking through. On technology, statecraft, power and human judgement.">
+  <title>Marginal Takes – Sam Hogg</title>
+  <link rel="canonical" href="https://taipansam.com/marginal-takes.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Marginal Takes – Sam Hogg">
+  <meta property="og:description" content="Short essays, half-formed ideas, and things I'm still thinking through.">
+  <meta property="og:url" content="https://taipansam.com/marginal-takes.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    html { color-scheme: light; }
+    body {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 36px 32px 88px;
+      background: #fff;
+      color: #242424;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .skip-link {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+    .skip-link:focus {
+      position: static;
+      display: inline-block;
+      width: auto;
+      height: auto;
+      margin-bottom: 20px;
+      overflow: visible;
+      clip-path: none;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 22px;
+      margin-bottom: 52px;
+      padding-bottom: 26px;
+      border-bottom: 1px solid #e8e8e4;
+      font-size: 14px;
+    }
+    nav a { color: #555550; text-decoration: none; }
+    nav a[aria-current="page"] { color: #242424; text-decoration: underline; text-underline-offset: 5px; }
+    nav a:hover { text-decoration: underline; text-underline-offset: 5px; }
+    a:focus-visible { outline: 2px solid #242424; outline-offset: 5px; }
+    .page-header { margin-bottom: 34px; }
+    h1, h2 { font-family: "Cormorant Garamond", Garamond, Georgia, serif; }
+    h1 {
+      margin: 0 0 15px;
+      font-size: clamp(46px, 6.5vw, 60px);
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -0.025em;
+    }
+    .subtitle { max-width: 58ch; margin: 0; color: #62625d; font-size: 16px; line-height: 1.75; }
+    .essay-list { margin: 0; padding: 0; list-style: none; }
+    .essay-list > li { padding: 28px 0 29px; border-top: 1px solid #e8e8e4; }
+    .essay-list > li:last-child { border-bottom: 1px solid #e8e8e4; }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+      overflow-wrap: break-word;
+    }
+    h2 a { color: #242424; text-decoration: none; }
+    h2 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+    .essay-description { max-width: 70ch; margin: 0 0 11px; color: #585853; font-size: 15px; line-height: 1.7; }
+    time { display: block; color: #74746f; font-size: 12.5px; line-height: 1.5; letter-spacing: 0.025em; }
+    @media (max-width: 600px) {
+      body { padding: 26px 22px 60px; }
+      nav { gap: 9px 17px; margin-bottom: 38px; padding-bottom: 23px; font-size: 13px; }
+      .page-header { margin-bottom: 29px; }
+      .subtitle { font-size: 15px; line-height: 1.7; }
+      .essay-list > li { padding: 25px 0 26px; }
+      h2 { font-size: 25px; line-height: 1.22; }
+      .essay-description { font-size: 14.5px; }
+    }
+    @media print {
+      body { max-width: none; padding: 0; }
+      nav, .skip-link { display: none; }
+      .essay-list > li { break-inside: avoid; }
+    }
+  </style>
 </head>
 <body>
-    <nav>
-        <a href="https://taipansam.com/">Home</a>
-        <a href="https://taipansam.com/marginal-takes.html">Marginal Takes</a>
-        <a href="https://taipansam.com/peripheries.html">Peripheries</a>
-        <a href="https://taipansam.com/artificial-friction.html">Artificial Friction</a>
-        <a href="https://taipansam.com/in-circulation.html">In Circulation</a>
-    </nav>
-    <h1>Marginal Takes</h1>
-    <p class="subtitle">Short essays, half-formed ideas, and things I'm still thinking through.</p>
-
-    <h2>Essays</h2>
-    <p class="instruction">Click a title to open it in a new tab.</p>
-    <ul>
-        <li>
-            <a href="https://taipansam.com/statecraft-at-the-frontier.html" target="_blank" rel="noopener">Statecraft At The Frontier</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/aisi-comparative-advantage.html" target="_blank" rel="noopener">AI Security &amp; Safety Institutes Need A Comparative Advantage</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/age-of-leaders.html" target="_blank" rel="noopener">Short Notes On: Age differences between tech and world leaders</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/book-review-the-infinity-machine.html" target="_blank" rel="noopener">Book Review: The Infinity Machine, Sebastian Mallaby</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/second-chain-strategist.html" target="_blank" rel="noopener">Second Chain Strategist</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/horizons-and-the-arena.html" target="_blank">Horizons and The Arena</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/long-march-2029.html" target="_blank">The Long March to 2029</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/forward-deployed-vagabond.html" target="_blank">Forward Deployed Vagabond</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/upstream-influence.html" target="_blank">Upstream Influence</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/british-foreign-policy-2025.html" target="_blank">Closing 2025 view on British foreign policy and strategy</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/british-pmc.html" target="_blank">On the need for a British Private Military Company</a><br>
-            <span class="status">Published</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/pmcs-notes.html" target="_blank">Notes on PMCs and the future of outsourced force, with one eye on Taiwan</a><br>
-            <span class="status">Forthcoming</span>
-        </li>
-        <li>
-            <a href="https://taipansam.com/artisan-intelligence.html" target="_blank">The Coming of 'Artisan Intelligence'</a><br>
-            <span class="status">Published</span>
-        </li>
+  <a class="skip-link" href="#main-content">Skip to essays</a>
+  <nav aria-label="Main navigation">
+    <a href="https://taipansam.com/">Home</a>
+    <a href="https://taipansam.com/marginal-takes.html" aria-current="page">Marginal Takes</a>
+    <a href="https://taipansam.com/peripheries.html">Peripheries</a>
+    <a href="https://taipansam.com/artificial-friction.html">Artificial Friction</a>
+    <a href="https://taipansam.com/in-circulation.html">In Circulation</a>
+  </nav>
+  <main id="main-content">
+    <header class="page-header">
+      <h1>Marginal Takes</h1>
+      <p class="subtitle">Short essays, half-formed ideas, and things I'm still thinking through.</p>
+    </header>
+    <ul class="essay-list" aria-label="Essays">
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/statecraft-at-the-frontier.html" target="_blank" rel="noopener">Statecraft At The Frontier</a></h2>
+          <p class="essay-description">How Britain is using AI biosecurity to turn scientific expertise into strategic influence.</p>
+          <time datetime="2026-11">November 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/aisi-comparative-advantage.html" target="_blank" rel="noopener">AI Security &amp; Safety Institutes Need A Comparative Advantage</a></h2>
+          <p class="essay-description">Why smaller countries’ AI institutes should specialise to build domestic support and international influence.</p>
+          <time datetime="2026-10">October 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/age-of-leaders.html" target="_blank" rel="noopener">Short Notes On: Age differences between tech and world leaders</a></h2>
+          <p class="essay-description">How the worlds that shaped political and technology leaders may shape the future they build.</p>
+          <time datetime="2026-09">September 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/second-chain-strategist.html" target="_blank" rel="noopener">Second Chain Strategist</a></h2>
+          <p class="essay-description">A modern dragoman: translating ideas, incentives and expertise between technology and political power.</p>
+          <time datetime="2026-09">September 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/horizons-and-the-arena.html" target="_blank" rel="noopener">Horizons and The Arena</a></h2>
+          <p class="essay-description">On resisting cynicism, leaving familiar territory and finding a useful role in AI and biosecurity.</p>
+          <time datetime="2026-07">July 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/long-march-2029.html" target="_blank" rel="noopener">The Long March to 2029</a></h2>
+          <p class="essay-description">Why Britain’s broken bargain over fairness could produce a much harsher politics by 2029.</p>
+          <time datetime="2026-07">July 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/forward-deployed-vagabond.html" target="_blank" rel="noopener">Forward Deployed Vagabond</a></h2>
+          <p class="essay-description">The growing value of fieldwork, human judgement and tacit knowledge in a world saturated with AI.</p>
+          <time datetime="2026-06">June 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/book-review-the-infinity-machine.html" target="_blank" rel="noopener">Book Review: The Infinity Machine, Sebastian Mallaby</a></h2>
+          <p class="essay-description">Demis Hassabis, the pursuit of artificial general intelligence, and the politics of who gets to build it.</p>
+          <time datetime="2026-03">March 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/upstream-influence.html" target="_blank" rel="noopener">Upstream Influence</a></h2>
+          <p class="essay-description">How to shape what leaders know, want and consider possible before a decision reaches their desk.</p>
+          <time datetime="2026-03">March 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/artisan-intelligence.html" target="_blank" rel="noopener">The Coming of &#x27;Artisan Intelligence&#x27;</a></h2>
+          <p class="essay-description">Why thinking for yourself could become a scarce skill and an expensive status symbol.</p>
+          <time datetime="2026-02">February 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/british-foreign-policy-2025.html" target="_blank" rel="noopener">Closing 2025 view on British foreign policy and strategy</a></h2>
+          <p class="essay-description">Why Britain needs to abandon outdated assumptions and rebuild the foundations of its power.</p>
+          <time datetime="2026-01">January 2026</time>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2><a href="https://taipansam.com/british-pmc.html" target="_blank" rel="noopener">On the need for a British Private Military Company</a></h2>
+          <p class="essay-description">A case for maritime contractors, Commonwealth partnerships and a more entrepreneurial approach to British statecraft.</p>
+          <time datetime="2026-01">January 2026</time>
+        </article>
+      </li>
     </ul>
+  </main>
 </body>
 </html>
