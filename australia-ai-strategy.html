@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="How Australia can turn data centres, frontier AI access and public trust into a stronger strategic position.">
+  <title>Australia’s AI Strategy Can Work – Sam Hogg</title>
+  <link rel="canonical" href="https://taipansam.com/australia-ai-strategy.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Australia’s AI Strategy Can Work">
+  <meta property="og:description" content="How Australia can turn data centres, frontier AI access and public trust into a stronger strategic position.">
+  <meta property="og:url" content="https://taipansam.com/australia-ai-strategy.html">
+  <meta property="og:image" content="https://taipansam.com/australia-ai-strategy-image9.png">
+  <meta property="og:image:alt" content="River Red Gums at the Water’s Edge, a framed landscape painting by Lorraine Saltmarsh.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    html { color-scheme: light; }
+    body {
+      font-family: "Cormorant Garamond", Garamond, Georgia, serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.65;
+      color: #111;
+      background: #fff;
+      max-width: 728px;
+      margin: 60px auto;
+      padding: 0 24px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      overflow-wrap: break-word;
+    }
+    nav { margin-bottom: 48px; font-size: 0.95rem; }
+    nav a { color: #111; text-decoration: none; margin-right: 20px; }
+    nav a:hover { text-decoration: underline; }
+    a { color: #0b3a5d; text-underline-offset: 0.15em; }
+    a:focus-visible { outline: 3px solid #b46613; outline-offset: 4px; }
+    h1 { font-size: 1.9rem; line-height: 1.3; margin: 0 0 8px; }
+    .subtitle { font-size: 1.2em; color: #555; font-style: italic; margin: 0 0 48px; }
+    h2 { font-size: 1.35em; line-height: 1.3; margin: 1.8em 0 0.8em; }
+    p { margin: 0 0 1.4em; }
+    figure { margin: 34px 0 38px; }
+    figure img { display: block; width: 100%; height: auto; }
+    table { width: 100%; border-collapse: collapse; margin: 30px 0 36px; font-size: 0.96em; }
+    th, td { border-bottom: 1px solid #ddd; padding: 12px 8px; text-align: left; vertical-align: top; }
+    th:first-child, td:first-child { padding-left: 0; }
+    th:last-child, td:last-child { padding-right: 0; text-align: right; }
+    th { font-weight: 700; }
+    td strong { font-weight: 700; }
+    .footnotes { border-top: 1px solid #ccc; margin-top: 44px; padding-top: 12px; font-size: 0.9em; }
+    .footnotes li { padding-left: 5px; margin-bottom: 16px; scroll-margin-top: 24px; }
+    .footnotes a { overflow-wrap: anywhere; }
+    sup { font-style: normal; line-height: 0; font-size: 0.72em; }
+    [role="doc-noteref"] { scroll-margin-top: 24px; text-decoration: none; }
+    .back-to-essays { border-top: 1px solid #ddd; margin-top: 44px; padding-top: 22px; font-size: 0.9em; }
+    .key-points { padding-left: 1.25em; margin: 0 0 2em; }
+    .key-points li { padding-left: 0.25em; margin-bottom: 1em; }
+    .key-points li:last-child { margin-bottom: 0; }
+    .note-group { white-space: nowrap; }
+    .note-separator { font-size: 0.72em; vertical-align: super; line-height: 0; }
+    [id^="fnref-"] { scroll-margin-top: 24px; }
+    .footnotes ol { padding-left: 1.4em; }
+    .footnotes li:target { background: #faf4e8; outline: 6px solid #faf4e8; }
+    @media (max-width: 600px) {
+      body { margin: 32px auto; padding: 0 20px; }
+      nav { margin-bottom: 34px; }
+      .subtitle { margin-bottom: 36px; }
+      table { font-size: 0.83em; }
+      th, td { padding: 10px 5px; }
+    }
+    @media print {
+      body { max-width: none; margin: 0; padding: 0; font-size: 12pt; }
+      nav, .back-to-essays { display: none !important; }
+      figure, table { break-inside: avoid; }
+    }
+  
+    figcaption { margin-top: 10px; color: #555; font-size: 0.8em; font-style: italic; line-height: 1.5; text-align: center; }
+  
+    h1 { font-size: clamp(30px, 5.5vw, 40px); }
+    h3 { font-size: 1.12em; line-height: 1.4; margin: 1.7em 0 0.7em; }
+    .article-meta { color: #666; font-size: 0.8em; margin: 0 0 28px; }
+    li { margin-bottom: 1em; padding-left: 0.15em; }
+    ul { margin: 0 0 1.5em; padding-left: 1.3em; }
+    li > ul { margin-top: 0.9em; }
+    li > img, p > img { display: block; max-width: 100%; height: auto; margin: 28px 0; }
+    figure a { display: block; }
+    .section-divider { margin: 40px auto; max-width: 540px; }
+    .table-scroll { overflow-x: auto; margin: 28px 0 36px; overscroll-behavior-x: contain; }
+    .table-scroll table { margin: 0; font-size: 0.84em; line-height: 1.5; }
+    .committee-table { min-width: 620px; }
+    .committee-table th:first-child { width: 22%; }
+    .committee-table th:nth-child(2) { width: 24%; }
+    th:last-child, td:last-child { text-align: left; }
+    th, td { padding: 12px 10px; }
+    td p, th p { margin: 0 0 0.6em; }
+    td p:last-child, th p:last-child { margin-bottom: 0; }
+    .callout { border-left: 2px solid #aaa; background: #fafaf7; padding: 20px 24px; margin: 34px 0; }
+    .callout h3 { margin-top: 0; }
+    .callout p:last-child { margin-bottom: 0; }
+    .chart-label { margin: 28px 0 -16px; text-align: center; font-size: 0.9em; }
+    @media (max-width: 600px) {
+      .table-scroll table { font-size: 0.82em; }
+      .members-table th:first-child { width: 30%; }
+      .callout { padding: 16px 18px; }
+    }
+</style>
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <a href="https://taipansam.com/">Home</a>
+    <a href="https://taipansam.com/marginal-takes.html">Marginal Takes</a>
+  </nav>
+  <main>
+    <article aria-labelledby="article-title"><header><h1 id="article-title">Australia’s AI Strategy Can Work</h1>
+<p class="article-meta"><time datetime="2026-11-05">5 November 2026</time></p>
+</header>
+<figure><img src="australia-ai-strategy-image9.png" width="1559" height="1211" alt="River Red Gums at the Water’s Edge, a framed landscape painting by Lorraine Saltmarsh." decoding="async"><figcaption>Lorraine Saltmarsh - River Red Gums at the Water's Edge (c. 1960s)</figcaption>
+</figure>
+<h2>Foreword</h2>
+<p>The world is changing. We are in the dusk of one era, and the dawn of another. Ideas, norms and social contracts that underpinned global trade, cooperation and ‘multinationalism’ since the end of World War II have been severely tested. New advances in a technology called Artificial Intelligence (AI) seem to have the potential to reshape many elements of the global economy and power structure, how we as humans understand maths and science, perhaps even our own existence.</p>
+<p>Two countries sit at the table: China and the United States. A small group of other powerful but less influential nations must battle to buy a seat at that table, often between themselves, by offering a suite of different things the two powers find attractive. Analysts and policy-types tend to refer to this group as ‘Middle Powers,’ although each is governed by its own national interest and incentives and not all share the same values or ambitions.</p>
+<p>Australia sits in a unique position among this group when it comes to pitching for a seat. It has cheap renewable energy, huge amounts of land, a stable democracy (and is a long-standing security and intelligence partner of the United States), continuity between administrations, an educated public, and represents a stepping stone into the wider Asia-Pacific region. Western frontier AI companies like Anthropic and OpenAI have committed rhetorically and financially to expanding in Australia - with a series of asks. The Government has signalled an interest in having them, citing national security and safety reasons for doing so. But a number of legitimate blockers sit in the way, and with the Government due to publish its AI regulation in the first quarter of next year, the country is drawing the close of a key period for setting itself on a strong foundation for the next decade.</p>
+<p>Being a ‘Middle Power’ means spotting moments where the scale tilts slightly in your favour and acting with speed and drive. Now is one such moment. As I write this note on the morning after the US Midterms, America has emphatically rejected many elements of the second Trump administration - and concerns around AI data centres seemed to have played a part in the wider discontent. In the coming months and years, a Democrat-controlled Senate and House may block, question and hold hearings into the AI leaders who aligned themselves too closely with the Trump White House over the last 24 months. The Party may seek to differentiate itself from the Republicans by going hard on AI regulation, AI safety, and the community benefits aspect of this technology as it heads into the next election, riding on popular resentment and discontent. Data centre rollout won’t end totally, but may find itself blocked and burdened by politics even more so than before. These are not inherently bad things, and as others have noted, some of those AI firms may actually benefit from not being snapped with the President on an almost weekly basis, and communities too now find themselves in a potentially stronger negotiating position.</p>
+<figure><a href="https://x.com/repyassansari/status/2118054336077127797?a=SiC_FwNE3ACPNLTrpCc&amp;s=61"><img src="australia-ai-strategy-image3.png" width="1248" height="628" alt="A post by Congresswoman Yassamin Ansari calling for a pause on advanced AI development and regulation of the industry." loading="lazy" decoding="async"></a></figure>
+<figure><a href="https://x.com/onagel33303/status/2117452882773684550?a=p2BKvQLfKi7GllfNEAM&amp;s=61"><img src="australia-ai-strategy-image7.png" width="1236" height="1112" alt="A social media post sharing Abdul El-Sayed’s comments on pausing AI." loading="lazy" decoding="async"></a></figure>
+<p>But why does it matter to Australia? This is a moment in which the scales are tilting slightly. US frontier companies will be waking up today thinking about their new political strategies. How far did we go under Trump in our rhetoric, our donations, our public comments? How can we diversify our compute rollout? How can we try and protect our commercial strategies from an incoming pendulum swing of potential political retribution? This gives Australia leverage - even in small amounts - that did not exist a week ago. Australian diplomats, executives, and critical players should be hitting the phones with their US counterparts. </p>
+<p>This note is a series of observations I’ve made since arriving in Australia a month ago. It looks at the country’s current ‘AI Strategy’: what the politicians are saying, what the data centre groups are arguing for, what the communities and councils are pushing back on. It opens with a series of recommendations for these general groups, based on my own analysis and from spending most of my twenties working on issues that are chokepointed around an inability for groups to communicate complexity to one another. Finally, no one paid me to write this; I did so because I wanted to learn more about the subject at hand. Any mistakes that follow are, obviously, those of my unpaid intern. Should you wish to discuss this note or any of its recommendations, <a href="mailto:sam@beijingtobritain.com">please do get in touch</a>.</p>
+<p><em>Sam Hogg</em></p>
+<figure class="section-divider"><img src="australia-ai-strategy-image2.png" width="1999" height="401" alt="" loading="lazy" decoding="async"></figure>
+<h2>Observations &amp; Recommendations</h2>
+<p>Let us follow this set of assumptions for this note. The leading frontier AI companies will continue to release models publicly, but internally, they have models that are far more powerful than what we see in the public domain. Access to these models will become increasingly important and increasingly limited, but again from the outside we will continue to see a <a href="https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged">jagged frontier</a>, where it looks like AI is really good at some things - even surpassing humans - but much slower and worse on other tasks or jobs. The next chapter of AI will involve things like robots implementing AI in their work (what is loosely called ‘embodied AI) and potentially significant changes in theoretical sciences, where these systems appear to be very smart indeed. Governments around the world outside of the United States will, to varying degrees, have limited access or insight into what these companies and models can do. They will, however, also continue to be pitched by these companies and the US government to use the models on terms favourable to Washington and San Francisco. Chinese AI firms meanwhile will offer cheaper models, but they will lag behind their US counterparts and present security risks, especially for nations that do not sit equidistant between the US and China.</p>
+<ul>
+<li><strong>For the Australian Government</strong>: Any legal effort to have some insight into these models is both a national security imperative and economic advantage if able to be deployed in-territory. IF this is the case, then the Government should triple down on its approach to getting frontier companies to train part of their models in the country. This will involve coming to a rapid answer on copyright (perhaps along the lines of Good Ancestors proposal <a href="https://www.goodancestors.org.au/our-work/ai-safety/ai-training-and-copyright">here</a>, with AI companies training in Australia paying into a fund that supports Australian creators - it should also make a more coherent case for why allowing the models to train on Australian data, learning its cultures and customs, is a good thing) and AI-focused data centre buildout (involving listening to local communities on issues such as aesthetics of the building process, aside from regular complaints over water and energy.) <ul>
+<li>Sort It: There is a first mover advantage in getting the IP issue sorted - no other Middle Power has done this to date. </li>
+</ul>
+</li>
+<li><strong>For the Australian defence and security community</strong>: Again, following the above assumption, Australia represents a longstanding security and defence partner with the United States. A Five Eyes member, it is also a safe neighborhood in which to build compute (unlike the Middle East, where UAE data centres have been hit by missiles), and could potentially scale the appropriate security scaffolding necessary to reach RAND <a href="https://www.rand.org/content/dam/rand/pubs/research_reports/RRA4800/RRA4827-1/RAND_RRA4827-1.pdf">Security Level 5 (SL5)</a> facility for operating the training of AI systems. Australia has a rich geopolitical history of analysing its region, which contains China. <ul>
+<li>AUKUS for Compute: it may be worth strategising around this concept. An argument would be as follows: Australia should offer suitable sites, deliverable electricity and connectivity, coordinated planning processes and trusted security arrangements for American frontier companies and the American state. In return, participating companies would make binding commercial commitments and provide specified access for Australian evaluators and authorised government users, alongside favourable compute access for Australian research. Britain, with the world’s best resourced and staffed AI Security Institute (and the third AUKUS partner) would contribute evaluation expertise, security capability and AI-enabled biosecurity research. </li>
+</ul>
+</li>
+<li><strong>For Australian policymakers: </strong>when discussing the technology at hand, it is important to be using it. This may sound obvious, but if your last interaction with ChatGPT or Claude is over six months ago, you are dealing with an example of the technology that is badly dated. This will make it difficult for you to further estimate its relative strengths (or weaknesses.) Highly motivated individuals may also want to consider creating an international grouping of politicians from other democratic parliaments to share information and strategies for negotiating with frontier companies/understanding and advising on legislation passing through other countries on these matters. <ul>
+<li>Expertise needed: It will also be essential for Australia to keep investing in the expertise necessary to understand the frontier of this technology - the new AI Safety Institute represents a good but small start - so that the Government can produce coherent strategies. This must be coupled with more traditional foreign and defence policy expertise too.</li>
+</ul>
+</li>
+<li><strong>For Australian data centre companies and groups</strong>: there is an element of the two sides - builders/operators and the local communities/councils - talking past each other on this. The former has sometimes <a href="https://www.capitalbrief.com/article/our-data-centre-debate-is-being-fought-with-american-facts-045d20fd-1dd0-4a5e-ac5b-e51e235aa30c/">written</a> of legitimate concerns over data centre buildout as being imported American discourse, while the latter has at times taken a ‘I want it, just not in my back yard’ approach which disregards potential benefits of these centres both locally and in terms of protecting and projecting Australia’s national interest. But reading analysis it is also clear that community and local political engagement has been poor. Take one example: the Municipal Association of Victoria (MAV), the peak body for all 79 councils in Victoria, <a href="https://www.abc.net.au/news/2026-10-30/data-centre-moratorium-called-by-municipal-association-victor/107324748">passed</a><em> “a resolution at its October state council meeting calling for a moratorium on approvals for all new or expanded data centres until a "comprehensive" planning and environmental framework was established.</em>” In doing so, it <a href="https://www.afr.com/companies/infrastructure/data-centre-confusion-risks-investment-pipeline-operators-warn-20261030-p61a0r">stated</a> “<em>councils are not being given enough time, information and resources to properly consider the cumulative impacts of data centres proposals in their municipality.</em>”This may be true, whilst it also may be the case that these councils are responding to local political incentives (even if these are not always based on correct factual assessments) As this note explores, several frontier companies and data centre firms are now hiring for community engagement, but it would be unhelpful to paint the local pushback as being an American import.</li>
+</ul>
+<ul>
+<li><strong>For local communities and councils</strong>: it seems reasonable to ask the companies building or upgrading the data centres in your areas for more concrete environmental assessments or energy costings, and for them to cover the latter. However, the conversation is two ways: what do you want in return? What can these firms offer? This is a democracy, and democracies require concessions for their survival to continue. For example, there was bitter pushback against the Sydney Opera House and the original Snowy Mountain Scheme, and now both are widely viewed as essential parts of Australian life. There is a trade off at some level that must be achieved, and it can be a positive one.</li>
+</ul>
+<ul>
+<li><strong>For Frontier AI Companies: </strong>this is now a tale as old as time (time being measured since the arrival of ChatGPT) that the messaging is off. Australian’s oscillate between being warm to not warm on the data centre expansion/upgrade - which, as a reminder, is the most tangible example of what ‘AI’ actually means, in that they can see it physically in the flesh. Various appearances before the different political committees is useful for winning the upstream support necessary for sustained expansion, but local engagement seems to be poor (hence the rise in hiring directly for such roles, examined later). Likewise, capital is clearly available for backing the data centre companies partnering with the frontier firms - however, investors want to see better offers than those presented by companies such as Firmus before they are willing to part ways with their funds.</li>
+</ul>
+<figure class="section-divider"><img src="australia-ai-strategy-image2.png" width="1999" height="401" alt="" loading="lazy" decoding="async"></figure>
+<h2>Executive Summary</h2>
+<ul>
+<li>The centre-left Australian Government wants a “compute for access” approach to its AI strategy. This means using its attractiveness as a stable democracy, security partner, and a country with abundant renewable energy and ample critical minerals as an offer for American frontier companies (and the American government more generally) to secure computing resources, technical capability and a stronger position in negotiations over frontier AI. The granular element of this approach means building data centres for frontier applications rapidly, leasing those to American frontier companies, and - in return - gaining access to frontier models and leverage in keeping them in-country, plus building out the ability for Australian businesses and citizens to benefit from the technology. ‘Access’ covers several things: early model access for security agencies, guaranteed capacity to run models in Australia, custody of model weights, and price. The commercial deals signed so far mostly <a href="https://www.thestar.com.my/tech/tech-news/2026/09/16/anthropic-signs-first-australia-data-centre-agreement">secure</a> the second. The Government has also explicitly <a href="https://www.pmc.gov.au/resources/getting-it-right-building-ai-infrastructure-works-australia">stated</a> it wants frontier-model training in Australia.</li>
+<li>This approach faces two political and two commercial blocking points that will need to be fixed rapidly. The former are pushbacks on data centre rollout and copyright issues for creatives. The latter, no frontier company has yet agreed to train part of its frontier model in Australia (they have indicated they might), and connections to the grid are delaying compute and undermining investor confidence. Grid connection and local consent are the most pressing issues, as the copyright agreements decide whether training ever follows. <ul>
+<li>There have already been examples of failure here: communities or councils, citing lack of direct engagement by data centre firms, are withholding consent, causing contracted revenue to slip, which in turn sees the developer’s shares fall as the market responds, and in turn its next campus becomes harder to finance, and in turn causes wider concerns over the general AI approach, as NEXTDC <a href="https://www.thestar.com.my/tech/tech-news/2026/10/21/australian-ai-data-centre-operator-nextdc-shares-shed-44-on-revenue-delay-">showed</a> in October.</li>
+</ul>
+</li>
+<li>Australia has also seen frontier-related security incidents, including at <a href="https://www.theguardian.com/technology/2026/oct/02/openai-disclose-another-hack-on-government-department-in-australia?CMP=Share_iOSApp_Other">least two incidents</a> involving OpenAI agents (the first - unauthorised access to a Medicare statistics portal in June, during which the agent wrote <a href="https://cybernews.com/news/openai-agent-hacks-australian-government-system/">files</a> to an internal server - was only <a href="https://www.healthcareitnews.com/news/anz/openai-agent-breaches-australian-medicare-portal">disclosed</a> by OpenAI to the Government in September, through a public vulnerability-reporting inbox. New South Wales <a href="https://www.itnews.com.au/news/nsw-national-parks-web-app-accessed-by-openai-agent-629402">reported</a> a second in October, involving a National Parks fire-data application). Separately, the Government has pre-emptively used language like “<em>operating with social licence</em>” when setting out what they want from frontier companies and compute builders. This is more coherent than the British counterpart of talking about “<em>fairness</em>” or “<em>AI for Britain</em>,” partly because it builds on pre-existing ideas of how companies work with society and government. This phrase was socialised from the mining sector. If Australia can find a way to navigate copyright and data centre rollout effectively, it will unlock significant investment and opportunity. </li>
+<li>Frontier companies such as OpenAI and Anthropic have explicitly said to Australian policymakers that this could be a main country outside of America they consider working with on this approach. Right now, the country has <a href="https://datacentres.org.au/wp-content/uploads/2026/10/2026-08_Data-Centres-Australia-Submission-to-the-Senate-Inquiry-into-AI-and-Data-Centres.pdf">somewhere</a> in the region of 1.6GW of operational data centre capacity compared to 53.7GW in the United States, or regional <a href="https://asia.nikkei.com/business/technology/singapore-linked-data-center-projects-face-growing-rejection-in-indonesia">competitors</a> Malaysia's 1.3GW, Singapore's 1.1 GW, and Indonesia’s 468 MW. DC Byte <a href="https://datacentres.org.au/wp-content/uploads/2026/10/2026_Australian-Data-Centre-Forecast-Report-Issue-2-30Oct2026.pdf">forecasts</a> 3.9GW of operational capacity by 2030. Britain - the other Five Eyes partner <a href="https://science.works/writing/uk-data-centre-pipeline/#executive-summary">trying</a> to build compute at speed - has set a target of 7.4GW by 2030, but currently has 1.8GW (mostly not AI-related) and added only 750MW between January 2021 and December 2025 (150 MW per year). Australia’s data centres require around 3% of the electricity on the east-coast National Electricity Market (AEMO expects 13% by 2035–36), while by 2030 data centres in Britain <a href="https://science.works/writing/uk-data-centre-pipeline/#executive-summary">could</a> use between 25 and 50 terawatt-hours (TWh) of power each year, around 10 to 20% of all the electricity used today.<ul>
+<li>Note that El Niño, declared by the Bureau of Meteorology in June, is set to create difficult weather conditions in the region - Indonesia’s data centre rollout may be impacted from an access-to-water point of view. Australia is not immune as its exposure runs through heat and much as water: El Niño summers push up peak electricity demand and bushfire risk to transmission lines just as data centre load is climbing.</li>
+</ul>
+</li>
+<li>The Government is set to introduce legislated national AI standards in early 2027 which will cover the frontier, and has <a href="https://www.minister.industry.gov.au/charlton/media/speech-the-sydney-trust-and-safety-festival">articulated</a> loosely why that is the case. The standards look likely to go wider than frontier regulation, covering data centres’ energy and water use, workplace rights and intellectual property, and <a href="https://www.bakermckenzie.com/en/insight/publications/2026/08/australia-charts-a-new-course-on-ai-regulation-and-policy">reversing</a> the December 2025 plan’s preference for voluntary guidance. The Government has launched an AI Safety Institute and, in July, an Office of AI within the Department of the Prime Minister and Cabinet. In Parliament, a new AI Committee was launched in late August. It has proven to be methodical and impressive, and its final report is due end of November this year.</li>
+</ul>
+<figure class="section-divider"><img src="australia-ai-strategy-image2.png" width="1999" height="401" alt="" loading="lazy" decoding="async"></figure>
+<h2>Background On The AI Approach</h2>
+<p>On 2 December 2025, Prime Minister Anthony Albanese’s Labor Government published Australia’s <a href="https://www.industry.gov.au/sites/default/files/2025-12/national-ai-plan.pdf?utm_source=chatgpt.com">National AI Plan</a>. This set out a three-pronged strategy: capturing the opportunity, spreading the benefits, and keeping Australians safe. On a more granular level, this involves building AI-specific data centres and attracting international government and commercial partnerships, supporting small and medium enterprises in using the technology, and creating regulatory frameworks that protect its citizens. This foundational document was followed by several others, including a note in March 2026 <a href="https://www.industry.gov.au/publications/expectations-data-centres-and-ai-infrastructure-developers">setting out</a> what the Government wants to see from data centre builders if they are to have the ‘social licence’ to operate in-country, followed by a Prime Ministerial <a href="https://www.pm.gov.au/media/ai-australias-interests">speech</a> in July codifying those ambitions. The same speech <a href="https://ia.acs.org.au/article/2026/govt-to-introduce-ai--data-centre-laws-in-policy-pivot.html">warned against</a> “<em>subcontracting our national sovereignty and security to the control of foreign monopolies</em>.” In a speech in September this year, the Prime Minister also <a href="https://www.pm.gov.au/media/television-interview-abc-insiders-8">referenced</a> loss of control as a concern, among protecting creatives’ work. The Government has created an Australian AI Safety Institute (AISI) and a new Office of AI which will <a href="https://www.twobirds.com/en/capabilities/artificial-intelligence/ai-legal-services/ai-regulatory-horizon-tracker/australia">oversee</a> frontier regulation plans, which are set to be introduced early in 2027 through Parliament. </p>
+<p>As it seeks to understand and legislate around the data centre buildout, the Government is mulling over ideas on how to force the companies to swallow the energy bills attached. Recent rhetoric <a href="https://www.argusmedia.com/en/news-and-insights/latest-market-news/2897115-australia-seeks-strict-power-rules-for-data-centres">reported</a> in the media seems to suggest that one such option would be making sure all new and old data centres over a certain size would be powered by renewable energy throughout the day - a move which has been met with disquiet by providers.</p>
+<h3>Political landscape</h3>
+<p>Parliamentary debate has, naturally, reflected the concerns raised by the electorate and the actions the Government has or hasn’t taken. These include granular ‘community-esque’ issues such as data centre rollout and copyright, through to more existential concerns such as loss of control and losing access to frontier systems. The most substantial Parliamentary event in the last year was the creation, at the Opposition’s initiative, of the <a href="https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Artificial_Intelligence">Joint Select Committee on Artificial Intelligence</a> in late August 2026. Its remit is specifically focused on many of these issues, and it is due to report its findings by the end of November this year. </p>
+<h3>Joint Select Committee on Artificial Intelligence</h3>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Joint Select Committee on Artificial Intelligence"><table class="committee-table"><thead><tr><th scope="col"><p><strong>Name</strong></p>
+</th>
+<th scope="col"><p><strong>Party / Seat</strong></p>
+</th>
+<th scope="col"><p><strong>Background</strong></p>
+</th>
+</tr>
+</thead>
+<tbody><tr><td><p>Jo Briskey (Chair)</p>
+</td>
+<td><p>Labor, Maribyrnong, VIC</p>
+</td>
+<td><p>Elected in 2025, succeeding Bill Shorten. Former CEO of The Parenthood, an advocacy organisation focused on childcare, parental leave and families. Qualified psychologist with a background in social policy and public campaigning.</p>
+</td>
+</tr>
+<tr><td><p>Jonathon Duniam (Deputy Chair)</p>
+</td>
+<td><p>Liberal, Senator for TAS</p>
+</td>
+<td><p>Senator since 2016. Former deputy chief of staff to Tasmanian premier Will Hodgman. Served as an assistant minister in the Morrison government, covering forestry, fisheries, tourism and industry development. Currently Shadow Minister for Home Affairs and Immigration.</p>
+</td>
+</tr>
+<tr><td><p>Ross Cadell</p>
+</td>
+<td><p>Nationals, Senator for NSW</p>
+</td>
+<td><p>Formerly worked in sports administration and major events, including the Newcastle Knights, V8 Supercars, MotoGP and Formula 1. Subsequently worked at the Port of Newcastle on infrastructure, economic diversification and energy projects.</p>
+</td>
+</tr>
+<tr><td><p>Kate Chaney</p>
+</td>
+<td><p>Independent, Curtin, WA</p>
+</td>
+<td><p>Elected in 2022. Holds a law degree and MBA. Former lawyer at Blake Dawson Waldron, consultant at Boston Consulting Group, and senior strategy and sustainability executive at Wesfarmers. Later Director of Innovation and Strategy at Anglicare WA.</p>
+</td>
+</tr>
+<tr><td><p>Josh Dolega</p>
+</td>
+<td><p>Labor, Senator for TAS</p>
+</td>
+<td><p>Appointed to the Senate in 2025. Worked at the Australian Taxation Office between 2005 and 2018 before becoming a workplace health and safety organiser with the Community and Public Sector Union.</p>
+</td>
+</tr>
+<tr><td><p>Andrew Hastie</p>
+</td>
+<td><p>Liberal, Canning, WA</p>
+</td>
+<td><p>Former Australian Army officer who served in the Special Air Service Regiment, including deployments to Afghanistan. Elected in 2015. Chaired Parliament's Joint Committee on Intelligence and Security (2017–20). Former Assistant Minister for Defence and Shadow Defence Minister. Currently Shadow Minister for Industry and Sovereign Capability and Deputy Leader of the Opposition in the House of Representatives.</p>
+</td>
+</tr>
+<tr><td><p>Zaneta Mascarenhas</p>
+</td>
+<td><p>Labor, Swan, WA</p>
+</td>
+<td><p>Chemical engineer elected in 2022. Studied engineering and applied chemistry at Curtin University. Worked for more than 15 years in engineering and consulting, including at Iluka Resources, GHD and Energetics, focusing on industrial processes, sustainability and climate change.</p>
+</td>
+</tr>
+<tr><td><p>David Pocock</p>
+</td>
+<td><p>Independent, Senator for ACT</p>
+</td>
+<td><p>Former Wallabies captain. Elected to the Senate in 2022 and re-elected in 2025. Campaigns on climate, lobbying transparency and tax fairness; in October 2026 proposed a 5% levy on data centre revenue.</p>
+</td>
+</tr>
+<tr><td><p>Tony Sheldon</p>
+</td>
+<td><p>Labor, Senator for NSW</p>
+</td>
+<td><p>Former National Secretary of the Transport Workers' Union (2006–19). Entered the Senate in 2019. Longstanding background in industrial relations, transport and workers' rights. Chaired the Senate Select Committee on Adopting Artificial Intelligence in 2024. Currently Chief Government Whip in the Senate.</p>
+</td>
+</tr>
+<tr><td><p>Marielle Smith</p>
+</td>
+<td><p>Labor, Senator for SA</p>
+</td>
+<td><p>Elected in 2019. Former policy adviser in the Department of Prime Minister and Cabinet. Advised Julia Gillard on gender and global education and worked for former minister Kate Ellis. Holds a master's degree in Public Policy and Administration from the London School of Economics.</p>
+</td>
+</tr>
+<tr><td><p>Aaron Violi</p>
+</td>
+<td><p>Liberal, Casey, VIC</p>
+</td>
+<td><p>Elected in 2022. Former private-sector sales and management executive, including at Mars Australia, before moving into the technology start-up sector in 2019. Holds an MBA. Currently Shadow Minister for the Digital Economy, Science, Technology and Innovation, and Cyber Security.</p>
+</td>
+</tr>
+<tr><td><p>Tim Watts</p>
+</td>
+<td><p>Labor, Gellibrand, VIC</p>
+</td>
+<td><p>Elected in 2013. Former lawyer, government adviser and Telstra executive specialising in communications policy, including the NBN and telecommunications regulation. Previously worked for communications minister Stephen Conroy. Served as Assistant Minister for Foreign Affairs (2022–25). Currently Special Envoy for Indian Ocean Affairs. Co-author of Two Futures.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Elsewhere, the Senate-only <a href="https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P">Environment and Communications References Committee</a> has asked to postpone its report on AI and data centres until March 2027 from an original due date of mid-November 2026. The inquiry itself received over 300 evidence submissions it will have to digest, alongside already interviewing expert witnesses, as it writes its report.</p>
+<p>Thematically, issues around AI in the political landscape are roughly as follows:</p>
+<ul>
+<li><strong>Copyright</strong>: There is largely agreement between Parliament, government and the creative industry that Australian creators should retain control and be paid for their IP. There is much less agreement about the legal mechanism required to achieve that while attracting frontier model training. Voluntary licensing, backed by planned laws barring AI training on Australian works without authorisation, seem to be the Government’s preferred option - meanwhile the frontier companies such as Anthropic favour an ‘opt-out’ model. Experts have <a href="https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case?CMP=Share_iOSApp_Other">warned</a> that the text of any future agreement will need to be watertight, or else it could be unconstitutional, if a training exemption allowed models to be trained in Australia on overseas works, foreign rights holders could potentially seek compensation in Australian courts. OpenAI and Anthropic have <a href="https://www.reuters.com/legal/litigation/anthropic-openai-call-australia-relax-ban-training-ai-models-2026-09-22/">explicitly</a> warned that the copyright issue is a blocker for them. Anthropic has tied clarity on this as being part of the <a href="https://www.theleader.com.au/story/9310843/new-rules-for-ai-as-critics-lash-energy-vampires/">exchange</a> for an A$21.6bn investment, and its first Australian lease is <a href="https://thenextweb.com/news/anthropic-first-australia-data-centre-lease">reportedly</a> for inference, not training models. </li>
+<li><strong>Data centres</strong>: Australia <a href="https://datacentres.org.au/australian-data-centre-forecast-report-issue-2/">already</a> has 163 data centres in operation, with 97 more in the pipeline before 2030. Like other democracies, AI-related data centre buildout is causing local concern. Forecasts for 2030 put operational capacity at about 3.2GW against demand of 3.9GW, with somewhere in the region of 1.6GW currently operating, and the Government wants some of that to potentially go towards pre-release training. The bulk of the country's data centres sit in its two most populous regions: New South Wales and Victoria. This in turn is impacting Australian companies, with two data centre providers losing significant share price recently and one failing to list on the Australian Securities Exchange at all, citing market volatility (NEXTDC, for its part, has cited slow grid upgrades). To this end, Anthropic and other firms are hiring explicitly for roles such as ‘community engagement managers’ to help build these data centres. It should be noted that large Australian data centres already have significant rules dictating how they join the grid, including paying for their entry and any upgrades it requires. Popular independent politician (and former Australian international rugby player) David Pocock has <a href="https://www.innovationaus.com/pocock-floats-5pc-data-centre-levy-patriotic-procurement/">proposed</a> the idea of a 5% levy on data centre revenue, starting in January 2027. <a href="https://www.pbo.gov.au/publications-and-data/publications/costings/data-centre-taxation">The Parliamentary Budget Office</a>, costing it for facilities above 5MW of IT load, puts the take at roughly A$500m by 2030 with a high degree of uncertainty.</li>
+<li><strong>Cyber issues</strong>: The Australian Signals Directorate, roughly the counterpart to Britain’s GCHQ and National Cyber Security Centre, issued its <a href="https://www.cyber.gov.au/publication/annual-cyber-threat-report-2025-26/executive-summary">Annual Cyber Threat Report 2025–26</a> on the 26th October 2026. It explicitly flagged AI-linked cyber risks and uplift as a point of genuine concern. The agencies have also spoken to Australian politicians about AI issues on numerous occasions. ASD also warned that state-sponsored actors are <a href="https://region.com.au/asd-report-highlights-increasing-number-of-ai-enabled-cyber-threats/1011269/">increasingly pre-positioning inside networks</a> for future intelligence collection or disruption, and campuses serving US frontier models are an obvious target. The OpenAI incidents expose a legal gap as Commonwealth computer offences require intention and knowledge, which are hard to attribute to an autonomous agent, and the Government is <a href="https://thenightly.com.au/politics/top-tech-intelligence-and-defence-officials-appointed-to-labors-openai-breach-taskforce-c-23043171">examining whether the cases can be referred to the Australian Federal Police under current law</a>. The Criminal Code’s corporate-culture provisions (section 12.3) are the most promising, and largely untested, route. This is not dissimilar to the conversation that took place in Britain over the summer. </li>
+<li><strong>Existential Risks</strong>: Acknowledged at the highest levels by the Prime Minister and related Ministers, it has been on the Parliamentary radar since at least 2024. Within its first eight weeks of its launch in August, the Committee on AI sent a <a href="https://www.aph.gov.au/DocumentStore.ashx?id=624cc99a-6e83-4e7a-aabb-15828aeac37d">letter</a> to the Prime Minister setting out several policy suggestions, including increasing the funding of the country’s AISI and recommending incident reporting by frontier companies, independent evaluators embedded within them, early model access for security agencies (currently the case but suffering same issues as UK vis a vis wider geopolitics), reserving computing power for local use, and monitoring AI’s potential contribution to biological weapons.</li>
+</ul>
+<figure class="section-divider"><img src="australia-ai-strategy-image2.png" width="1999" height="401" alt="" loading="lazy" decoding="async"></figure>
+<h2>Date Centre Politics</h2>
+<p>Australian politics is federalised: there is the national (Commonwealth) government led by the Prime Minister out of Canberra, and then six states and two self-governing territories. Each has its own government, legislature and political leader, called a Premier in states or Chief Minister in territories. The Commonwealth sets the overall agenda and direction, and it is then broadly left to the states and territories to implement it. To this end, each has taken slightly different approaches, ranging from New South Wales <a href="https://www.infrastructure.nsw.gov.au/news/nsw-releases-data-centre-policy-framework-and-guidelines">publishing</a> specific data centre guidance to Victoria sharing an <a href="https://djsir.vic.gov.au/priorities-and-initiatives/ai-mission-statement">AI Mission Statement</a>. This matters because states and territories are competing for investments, jobs and wealth share, creating a somewhat free market approach. However, it also leads to states having <a href="https://www.abc.net.au/news/2026-10-15/nt-labor-backflips-to-support-data-centre-moratorium-ai/107269286?utm_campaign=abc_news_web&amp;utm_content=link&amp;utm_medium=content_shared&amp;utm_source=abc_news_web">internal political fights</a> over issues such as building data centres, in a similar fashion to that seen in the United States and increasingly Britain.</p>
+<p>Two examples illustrate this regional competition and setting out of the offer. The Victorian Government’s planning decision on NEXTDC’s M3 expansion is <a href="https://www.rttnews.com/3700920/nextdc-cuts-fy27-revenue-ebitda-guidance-on-m3-power-delay-shares-plunge.aspx">now expected after the state election on 28 November</a>, so it will not be made before polling day. In Queensland, Premier David Crisafulli <a href="https://thenextweb.com/news/anthropic-first-australia-data-centre-lease">wants data centre standards that still allow gas and coal</a>, while Canberra pushes large facilities towards new renewables. Interestingly, the latest data <a href="https://datacentres.org.au/wp-content/uploads/2026/10/2026_Australian-Data-Centre-Forecast-Report-Issue-2-30Oct2026.pdf">indicates</a> that Sydney’s pipeline shrank by 3.6 GW as 4.4 GW of Early Stage projects fell away, while Melbourne's grew by 1.7 GW.</p>
+<figure><img src="australia-ai-strategy-image6.png" width="1999" height="889" alt="Data centre development pipelines in Sydney and Melbourne, and the number of projects by Australian state." loading="lazy" decoding="async"></figure>
+<p>Like their international counterparts, Australia’s data centre companies - and foreign companies operating in-country - have been impacted by external events alongside localised protests. These include raised Fed and Reserve Bank of Australia rates (the RBA has lifted the cash rate four times this year, to 4.60%) and the Iran War making money dearer, and market reactions to rumours about frontier AI companies being shorter on funding or IPO pricing than expected. </p>
+<p class="chart-label"><strong>Data centres operating in Australia, share price over last three years</strong></p>
+<figure><img src="australia-ai-strategy-image8.png" width="1748" height="1288" alt="Three years of indexed share prices for Equinix, Goodman Group, Digital Realty, Macquarie Technology and NEXTDC." loading="lazy" decoding="async"></figure>
+<p>Two Australian companies have been in the spotlight over the last month. The first is Nvidia-backed Firmus, a somewhat controversial company that was due to IPO on Australia’s stock exchange. It <a href="https://www.bbc.com/news/articles/ck9dzpw4ll8po">pulled out</a> in early October following a string of negative publicity, citing “<em>recent market volatility and prevailing market conditions.</em>” Investors had balked at <a href="https://www.zawya.com/en/capital-markets/5bln-firmus-ipo-divides-investors-after-valuation-triples-in-two-months-1487028">a valuation that tripled in two months</a>, and Firmus now <a href="https://www.startupdaily.net/?p=141097">risks losing OpenAI as a customer if its Malaysian campus is delayed</a>. The other is NEXTDC, which rode the wave of excitement around Australia’s potential role in this market and <a href="https://www.reuters.com/world/asia-pacific/australias-nextdc-signs-deal-with-openai-build-hyperscale-ai-campus-gpu-2025-12-04/">announced</a> a non-binding MoU with OpenAI, but has since run into local issues in Melbourne around community pushback, and publicly noted its issues connecting to the grid - on 21 October it cut its earnings guidance over a grid delay at its M3 Melbourne site, and its shares fell 41.7% in one session. </p>
+<aside class="callout" aria-label="The Domino Effect"><h3><strong>The Domino Effect</strong></h3>
+<p>Power operator Jemena <a href="https://www.illawarramercury.com.au/story/9372672/data-centre-developers-shares-crash-after-backlash/">suspended</a> parts of the grid works in September amid community opposition, safety concerns and the lack of council consent, and does not expect to restart them before February 2027. This then caused NEXTDC to cut its FY27 underlying earnings guidance by more than a third, lose nearly half its market cap in one day, <a href="https://www.thestar.com.my/tech/tech-news/2026/10/21/australian-ai-data-centre-operator-nextdc-shares-shed-44-on-revenue-delay-">announce</a> a freeze on all new developments and land acquisitions, and warn that the delay could affect its ability to draw senior debt. Its OpenAI campus, S7, is in Sydney rather than Melbourne but it depends on the same balance sheet and company financial health. Notably, it has already <a href="https://www.datacenterdynamics.com/en/news/openai-data-center-in-sydney-australia-abandons-plans-for-recycled-water-cooling-system-report/">dropped</a> a recycled-water cooling plan after the pipeline was refused approval. It was <a href="https://www.reuters.com/business/energy/openais-australian-data-centre-drops-water-recycling-plan-testing-drive-curb-2026-07-22/">originally</a> going to use sewage water, but now may have to use more water and energy intensive methods instead.</p>
+</aside>
+<p>It is worth flagging that it seems data companies and the protesting communities are talking past each other here, while the Government may run the risk of doing the same. This is likely as a result of over-indexing on the idea that all the complaints are imported from the US conversation around data centres, which tend to focus on electricity and water usage. The industry’s main association has <a href="https://www.capitalbrief.com/article/our-data-centre-debate-is-being-fought-with-american-facts-045d20fd-1dd0-4a5e-ac5b-e51e235aa30c/">publicly</a> claimed this is the case. But per media coverage <a href="https://www.theguardian.com/news/ng-interactive/2026/oct/27/how-big-are-the-ai-datacentre-power-poles-that-sparked-a-community-backlash-in-melbourne?CMP=Share_iOSApp_Other">speaking</a> to actual protestors and community members, what stalled NEXTDC’s M3 expansion was grid works  - the new polls are 15 meters tall - rather than the typical issues American data centre protests tend to throw up. When <a href="https://brandtracker.conjointly.com/data-stories/data-centre/">polled</a> alongside each other, Australians tend to support data centres for different reasons than their American counterparts. That being said, <a href="https://www.capitalbrief.com/newsletter/data-centre-boom-leaves-voters-cold-d50374c3-d0a9-47fd-ad97-dd9b5944d5ab/">depending</a> on current mood, they also don’t see advantages from the current buildout.</p>
+<figure><img src="australia-ai-strategy-image4.png" width="1422" height="1047" alt="Survey comparing Australian and US reasons for supporting data centres, including local data storage, jobs and digital services." loading="lazy" decoding="async"></figure>
+<figure><img src="australia-ai-strategy-image1.png" width="1451" height="1177" alt="Survey comparing Australian and US concerns about data centres, including electricity, water, land use and jobs." loading="lazy" decoding="async"></figure>
+<p>Concerns over local opposition to building data centres have seen companies such as <a href="https://job-boards.greenhouse.io/anthropic/jobs/5391999008">Anthropic</a> and <a href="https://job-boards.greenhouse.io/firmus/jobs/5460680008">Firmus</a> hire specifically for community engagement roles. This is interesting in as much as these are now hyper-local roles, not simply positions based in Canberra.<img src="australia-ai-strategy-image5.png" width="1803" height="1039" alt="Anthropic job description for a Community Engagement Manager in Australia." loading="lazy" decoding="async"></p>
+<figure><img src="australia-ai-strategy-image10.png" width="1882" height="1373" alt="Key responsibilities from a data centre community engagement role, including local relationships, consultation and community investment." loading="lazy" decoding="async"></figure>
+<figure class="section-divider"><img src="australia-ai-strategy-image2.png" width="1999" height="401" alt="" loading="lazy" decoding="async"></figure>
+<h2>Frontier Engagement</h2>
+<p>Both Anthropic and OpenAI have signalled significant interest in operating with Australia at all levels. The former noted in its <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">Form S-1</a> to the SEC that it had “<em>entered into leases for data centres</em>” in the country, while the latter has an explicit published <a href="https://cdn.openai.com/global-affairs/61b341bc-56eb-46dc-b356-a621e02cb82d/openai-australia-economic-blueprint-july-2025.pdf">Economic Blueprint for Australia </a>from July 2025. It noted “<em>We believe Australia needs to act more boldly and decisively to maximise AI’s possibilities while also ensuring it’s used responsibly to mitigate potential negative effects,</em>” and then continued “<em>National investment in AI infrastructure today will form the backbone of future economic growth, create jobs, boost productivity and usher in a new generation of entrepreneurship. It’s true for Australia. And it’s true for the rest of the world. We want to partner with Australia on this journey and look forward to building on this collaboration</em>.”</p>
+<p>Since then, Anthropic signed a <a href="https://www.thestandard.com.hk/world/article/328259/AI-giant-Anthropic-says-exploring-Australia-data-centre-investments">memorandum of understanding</a> with the Government earlier this year, reportedly ran <a href="https://www.investing.com/news/stock-market-news/anthropic-plans-to-buy-14gw-australian-data-centre-capacity-afr-reports-4775509">a tender for at least 1.4GW of capacity</a>, and in September signed <a href="https://www.thestar.com.my/tech/tech-news/2026/09/16/anthropic-signs-first-australia-data-centre-agreement">its first Australian lease</a>, at Zerra DC’s planned 2.16GW campus in Queensland’s Western Downs. The lease is reportedly for inference rather than training and still needs Foreign Investment Review Board approval. The company also reportedly <a href="https://www.abc.net.au/news/2026-08-26/claude-maker-anthropics-massive-data-centre-plans-nsw/107075532?utm_campaign=abc_news_web&amp;utm_content=link&amp;utm_medium=content_shared&amp;utm_source=abc_news_web">told</a> New South Wales that it was interested in building 5GW of compute in the state alone. OpenAI has also opened a Sydney office and signed a non-binding <a href="https://openai.com/global-affairs/openai-for-australia/">MoU</a> with NEXTDC, under which it intends to be the first customer of a planned 550MW AI campus at NEXTDC's S7 site in Western Sydney (facing significant pushback, as we shall see). Both came in December 2025, alongside a pledge to train more than 1.2 million Australian workers and small businesses in AI, part of the ‘social license’ push.</p>
+<p>Both firms also bring with them geopolitical risks from a turbulent American administration. In March the Pentagon <a href="https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/">designated Anthropic a supply-chain risk</a>, requiring its contractors to certify that they do not use Anthropic’s models. OpenAI, which <a href="https://abc7news.com/post/pentagon-anthropic-war-iran-donald-trump-pete-hegseth-ai-artificial-intelligence-san-francisco/18682143/">agreed to replace Anthropic in the Pentagon’s classified environments</a>, is the company whose agents accessed Australian government systems. Both firms also initially held back sharing their models with Britain’s AI Security Institute in the autumn, apparently at the request of the Administration. In Australia, the pair have hired from Government, although OpenAI has tended to be more direct in its efforts. For example, Peter Anstee <a href="https://lnkd.in/p/ePheFxuU">moved</a> directly from the Department of the Prime Minister and Cabinet to the company in June this year to lead APAC National Security. Anthropic meanwhile <a href="https://www.abc.net.au/news/2026-08-26/claude-maker-anthropics-massive-data-centre-plans-nsw/107075532">brought in</a> John Garnaut as an advisor, the former senior Adviser to Malcolm Turnbull and Principal Adviser (International) at the Department of the Prime Minister and Cabinet.</p>
+<p>Interestingly, OpenAI also <a href="https://openai.com/index/how-we-will-do-better-for-australia/">launched</a> its own independent taskforce with big Australian establishment names, following revelations that its AI agents had accessed Australian Government systems without authorisation, including non-public material from Services Australia. It is <a href="https://www.startupdaily.net/?p=140987">due to report by </a><u>the end of the year</u> and runs alongside <a href="https://www.healthcareitnews.com/news/anz/openai-agent-breaches-australian-medicare-portal">a separate Government taskforce</a> that brings together the National Cybersecurity Coordinator, the Office of AI, ASD, the AISI and Services Australia.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="OpenAI independent taskforce members"><table class="members-table"><thead><tr><th scope="col"><p><strong>Member</strong></p>
+</th>
+<th scope="col"><p><strong>Relevant government background</strong></p>
+</th>
+</tr>
+</thead>
+<tbody><tr><td><p>Ray Griggs</p>
+</td>
+<td><p>Former Chief of Navy, Vice Chief of the Defence Force and Secretary of Social Services</p>
+</td>
+</tr>
+<tr><td><p>Alastair MacGibbon</p>
+</td>
+<td><p>Former National Cyber Security Adviser, head of the Australian Cyber Security Centre and eSafety Commissioner; now chief strategy officer at CyberCX</p>
+</td>
+</tr>
+<tr><td><p>Johanna Weaver</p>
+</td>
+<td><p>Former head of DFAT's Cyber Affairs Branch and Australian cyber negotiator at the UN; now executive director of the Tech Policy Design Institute</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figure class="section-divider"><img src="australia-ai-strategy-image2.png" width="1999" height="401" alt="" loading="lazy" decoding="async"></figure>
+</article><p class="back-to-essays"><a href="https://taipansam.com/marginal-takes.html">← Back to all essays</a></p>
+  </main>
+</body>
+</html>
